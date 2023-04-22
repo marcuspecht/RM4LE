@@ -1,0 +1,13 @@
+# Exercise
+
+Here you can see an Shiny-exercise embedded.
+
+## Example one
+
+## Example two
+```{r}
+knitr::include_app("https://mkalz.shinyapps.io/Data2TEachModulCVariablenzuordnung/",
+  height = "800px")
+```
+
+

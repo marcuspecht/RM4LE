@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 8 Example chapter | Research Methods for Learning Engineering</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.33 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 8 Example chapter | Research Methods for Learning Engineering" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 8 Example chapter | Research Methods for Learning Engineering" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Specht, M., Saunders, G., Drachsler, H., Kalz, M." />
+
+
+<meta name="date" content="2023-04-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="exercise.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="literature.html"><a href="literature.html"><i class="fa fa-check"></i><b>3</b> Literature</a></li>
+<li class="chapter" data-level="4" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>4</b> Methods</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="methods.html"><a href="methods.html#math-example"><i class="fa fa-check"></i><b>4.1</b> math example</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>5</b> Applications</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>5.1</b> Example one</a></li>
+<li class="chapter" data-level="5.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>5.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>6</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="chapter" data-level="7" data-path="exercise.html"><a href="exercise.html"><i class="fa fa-check"></i><b>7</b> Exercise</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="exercise.html"><a href="exercise.html#example-one-1"><i class="fa fa-check"></i><b>7.1</b> Example one</a></li>
+<li class="chapter" data-level="7.2" data-path="exercise.html"><a href="exercise.html#example-two-1"><i class="fa fa-check"></i><b>7.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="example-chapter.html"><a href="example-chapter.html"><i class="fa fa-check"></i><b>8</b> Example chapter</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Research Methods for Learning Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="example-chapter" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">Chapter 8</span> Example chapter<a href="example-chapter.html#example-chapter" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>On the role of technology in technology-enhanced learning research
+Marco Kalz</p>
+<p>Abstract
+This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.</p>
+<p>Keywords: TEL, technology, technological determinism, social determinism, middle-ground</p>
+<p>Introduction
+There has been an ongoing critique regarding the role of educational theory for research on educational technology (Ravenscroft, 2001). On the other hand, the role of technology itself has been seldom discussed in the field of technology-enhanced learning. This chapter discusses the different perspectives on the role of technology in technology-enhanced learning research. To position the field of technology-enhanced learning in relation to earlier research fields, it is useful to discuss related definitions. In an early definition of educational technology, the AECT Task Force on Definition and Terminology points out that educational technology should not be confused with the application of technology in education. According to the AECT (1977) the field of educational technology defines technology in a broad sense as the application of an “integrated process involving people, procedures, ideas, devices, and organization, for analyzing problems and devising, implementing, evaluating and managing solutions to those problems, in all aspects of human learning”. This definition goes beyond technology in the sense of technics and includes a variety of methods and approaches which do not involve technological artifacts.</p>
+<p>Later, Reiser (2001) proposes the term instructional design and technology to avoid confusing it with the term instructional media which he interprets as the application of “computers, videos, CD-Roms, overhead and slide-projectors and other types of hardware and software”. Both fields have explicitly given themselves a broader definition than the use of the development and integration of technological artifacts in an educational context. The domain of technology-enhanced learning is explicitly focusing on a narrower definition. We define technology-enhanced learning research as a systematic approach to design, apply and analyse effects of digital technology with respect to increasing effectiveness, efficiency, enjoyability/attractiveness, accessibility of learning. In this definition, the design or application of digital technology into an educational context is central to the field. TEL does not focus on all types of technologies but explicitly focuses on digital technology. This definition has important implications for the identity of the field as a whole since the design of digital artifacts requires expertise from computer science while the application and evaluation requires expertise from educational science and psychology. Based on this combination of competences and expertise, the field of technology-enhanced learning has been from the start regarded as an interdisciplinary discipline (Kalz &amp; Specht, 2014). Nonetheless, the role of technology itself has not been sufficiently critically reflected in the field and there are implicit patterns of argumentation and assumptions about the role of technology which we would like to discuss in the next section.</p>
+<p>Different roles of technology
+One of the most prominent discussion in the field relates to a basic assumption about which discipline should lead in the development of interventions and solutions. The slogan “pedagogy first, technology second” is an often-repeated statement that many people from the educational field communicate based on the assumption that the only real innovation in teaching and learning should come from the pedagogy formulating requirements which the technical developers need to realize. On the other hand, there is a pervasive statement that a new technology is going to revolutionize education assuming that the introduction of a new technology will lead directly to better teaching or learning.
+What is common to both positions is the implicit deterministic stance that is used as a starting point. Chandler (1995) differentiates between two types of determinisms. On the one hand, there is a technological determinism, on the other hand there is a social determinism. Technological determinism is connected to a number of assumptions about the character and effects of technology.</p>
+<p>Often, reductionist and mechanistic models are used which are assuming a simple cause-and-effect relationship to explain phenomena. Instead of taking into account individual, environmental or contextual variables, effects of technology are generalized to such a high level that technology is regarded as the source of progress or innovation. As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”.</p>
+<p>As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”. In times of pervasive computerization of our society and environments and the connection and dependency of technologies on each other it is nearly impossible to generalize effects from one technology to the other. In addition, authors like Berry (2014) point to the ongoing softwarization of our society leading to a “post-digital world in which the digital has become completely bound up with and constitutive of everyday life and the so-called digital economy”. This has led also to a higher level of personalization and adaptation options for end-users taking the discussion regarding the reification of technology on another level because even the same digital technology can work differently for two users. Example of this are prominent search engines which are showing different results for search terms depending on the user profile or mobile apps which follow the notification preferences of the user rather the pre-designed notification of an app developed for learning.<br />
+Another aspect of this discussion is the assumption that machines can be divided into single parts and they offer a regular behavior. This assumption cannot be transferred to the use of technology in a social context because “the use of complex and interacting technologies may have implications which are not always entirely intended or predicted. And the complex fabric of social reality cannot be neatly analyzed into component factors” (Chandler, 1995).</p>
+<p>The neutrality of technology also known as the instrumental view of technology usage can be also seen as a deterministic perspective. Based on this perspective, technology itself is regarded as a kind of transport medium that does not add any affordances or qualities to the learning process. A very famous example from the educational technology domain is the debate between Richard Clark and Robert Kozma (see Clark 1994, Kozma, 1995) about the influence of “media” on learning. Clark (1994) supports the perspective of technological neutrality and states that technology itself has no influence on learning. In opposition, Kozma (1995) answered to this statement and argued that media/technologies have in itself traits that can have effects on learning.</p>
+<p>Another dimension of the technological determinism standpoint is the assumption that technology is acting autonomously. Chandler (1995) frames this perspective as follows: “Rather than as a product of society and an integral part of it, technology is presented as an independent, self-controlling, self-determining, self-generating, self-propelling, self-perpetuating and self-expanding force”. A special flavor of this perspective is the so-called anthropomorphism which projects unique human traits (purposeful behavior) on technology. This position ignores the fact that technology is made by humans and that all functionalities embedded into technology are in the end also designed by man. In recent times, where machine learning and artificial intelligence is also applied in the context of technology-enhanced learning, the discussion on autonomy of technology is getting a completely new perspective. To take a recent example, artificial neural networks are applied to solve different kind of problems (learning rules of games, pattern and image recognition etc.), but their internal function is working like a black box that is outside of the capabilities of humans.</p>
+<p>An often-repeated stance also in an educational context is the paradigm of the unstoppable technological progress also called the technological imperative. This perspective assumes that technology will inevitably lead to changes in society, education etc. and that this progress is unstoppable. This perspective and assumption of change is in that sense problematic as societies can always consciously accept or reject technologies. Especially ethical dimensions of the application of specific technologies can produce a public discourse that ends up in a decision not to adopt a technological progress. Several examples of this come from the medical field like stem cell research or the use of new test approaches for disability screening of babies. In technology-enhanced learning this discourse between potential application and realized application of technology is especially visible in the field of learning analytics (Greller &amp; Drachsler, 2014) in which the public discourse is inevitably connected to the discussion about data protection and conflicts between individual integrity and the potential benefit for learning.
+In the same line of thinking, Pannabecker (1991) has criticized that we regularly talk about the impact of technology. He poses that this metaphor “implies that technology is a discrete force with a discernible direction and influence”.</p>
+<p>The other extreme position that is also very famous especially in educational domains is to completely deny any effects of technology resulting into the other extreme deterministic perspective which we call here again following Chandler (1995) social determinism. Social determinism is assuming that social factors are shaping society and that technology itself is not having any natural affordances that also influence the societal development.</p>
+<p>Establishing a middle ground for technology-enhanced learning research
+After having introduced the different perspectives and deterministic stances the question arises if there is also a middle-ground position that is able to overcome the extreme positions.</p>
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div class="csl-entry">
+Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/">http://yihui.name/knitr/</a>.
+</div>
+<div class="csl-entry">
+———. 2023. <em>Bookdown: Authoring Books and Technical Documents with r Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown">https://CRAN.R-project.org/package=bookdown</a>.
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="exercise.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/08-chapter.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
