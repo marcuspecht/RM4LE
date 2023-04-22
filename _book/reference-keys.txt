@@ -9,3 +9,11 @@ applications
 example-one
 example-two
 final-words
+applications-1
+example-one-1
+example-two-1
+applications-2
+example-one-2
+example-two-2
+exercise
+example-chapter
