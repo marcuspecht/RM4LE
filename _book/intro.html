@@ -23,7 +23,7 @@
 <meta name="author" content="Specht, M., Saunders, G., Drachsler, H., Kalz, M." />
 
 
-<meta name="date" content="2023-04-22" />
+<meta name="date" content="2023-06-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -211,11 +211,20 @@ div.csl-indent {
 Figure 2.1: Here is a nice figure!
 </p>
 </div>
+<p>Test</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="intro.html#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="st">&#39;Hello, Marcus World!&#39;</span></span>
+<span id="cb2-2"><a href="intro.html#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
+<span id="cb2-3"><a href="intro.html#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(x.split(<span class="st">&#39; &#39;</span>))</span></code></pre></div>
+<pre><code>## [&#39;Hello,&#39;, &#39;Marcus&#39;, &#39;World!&#39;]
+## [&#39;Hello,&#39;, &#39;Marcus&#39;, &#39;World!&#39;]
+## [&#39;Hello,&#39;, &#39;Marcus&#39;, &#39;World!&#39;]
+## [&#39;Hello,&#39;, &#39;Marcus&#39;, &#39;World!&#39;]
+## [&#39;Hello,&#39;, &#39;Marcus&#39;, &#39;World!&#39;]</code></pre>
 <p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure <a href="intro.html#fig:nice-fig">2.1</a>. Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table <a href="intro.html#tab:nice-tab">2.1</a>.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="intro.html#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
-<span id="cb2-2"><a href="intro.html#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(iris, <span class="dv">20</span>), <span class="at">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
-<span id="cb2-3"><a href="intro.html#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">booktabs =</span> <span class="cn">TRUE</span></span>
-<span id="cb2-4"><a href="intro.html#cb2-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="intro.html#cb4-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
+<span id="cb4-2"><a href="intro.html#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(iris, <span class="dv">20</span>), <span class="at">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
+<span id="cb4-3"><a href="intro.html#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">booktabs =</span> <span class="cn">TRUE</span></span>
+<span id="cb4-4"><a href="intro.html#cb4-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
 <table>
 <caption><span id="tab:nice-tab">Table 2.1: </span>Here is a nice table!</caption>
 <thead>
