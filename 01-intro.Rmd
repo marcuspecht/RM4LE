@@ -1,3 +1,9 @@
+---
+output:
+  html_document: default
+  word_document: default
+  pdf_document: default
+---
 # Introduction {#intro}
 
 Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
@@ -11,12 +17,35 @@ par(mar = c(4, 4, .1, .1))
 plot(pressure, type = 'b', pch = 19)
 ```
 
-Test
+This is also a reference to [@kobsa2001personalised] this is important.
 
-```{python}
-x = 'Hello, Marcus World!'
-for i in range(5):
-  print(x.split(' '))
+```{r}
+# Loop to print numbers from 1 to 10
+for (i in 1:10) {
+  print(i)
+}
+```
+
+```{r}
+install.packages("DiagrammeR")
+library(DiagrammeR)
+
+# Create a blank diagram
+flowchart <- create_graph()
+
+# Add nodes to the diagram
+flowchart <- add_node(flowchart, "Start", shape = "rectangle")
+flowchart <- add_node(flowchart, "Process 1", shape = "rectangle")
+flowchart <- add_node(flowchart, "Process 2", shape = "rectangle")
+flowchart <- add_node(flowchart, "End", shape = "rectangle")
+
+# Add edges to connect the nodes
+flowchart <- add_edge(flowchart, from = "Start", to = "Process 1")
+flowchart <- add_edge(flowchart, from = "Process 1", to = "Process 2")
+flowchart <- add_edge(flowchart, from = "Process 2", to = "End")
+
+# Render and display the flowchart diagram
+render_graph(flowchart)
 ```
 
 Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
