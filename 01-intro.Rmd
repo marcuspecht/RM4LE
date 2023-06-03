@@ -1,60 +1,73 @@
 ---
 output:
   html_document: default
-  word_document: default
   pdf_document: default
+  word_document: default
 ---
+
 # Introduction {#intro}
 
 Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+## Definitions and terminology {#definitions}
 
-This is also a reference to [@kobsa2001personalised] this is important.
+Technology enhanced learning is about exploring the:
+Learning potential (goal) and usability (goal) of (design of/affordances of) digital technology x) for person (actor(s) a,b,c)  in context(s)  as studied by the educational system designer/researcher
 
-```{r}
-# Loop to print numbers from 1 to 10
-for (i in 1:10) {
-  print(i)
-}
-```
+Defining Technology
+Defining Enhancement
+Defining Learning
+ 
+Technology enhanced learning research is a systematic approach to design and assess  digital technology with respect to increasing:
+Effectiveness
+Efficiency
+Enjoyability/Attractiveness
+Accessibility
+Usefulness enhancements (=usability and utility) (see also SAMR framework)
 
-```{r}
-install.packages("DiagrammeR")
-library(DiagrammeR)
 
-# Create a blank diagram
-flowchart <- create_graph()
+Is it method, techniques or methodologies? See next part 
+See external glossary
 
-# Add nodes to the diagram
-flowchart <- add_node(flowchart, "Start", shape = "rectangle")
-flowchart <- add_node(flowchart, "Process 1", shape = "rectangle")
-flowchart <- add_node(flowchart, "Process 2", shape = "rectangle")
-flowchart <- add_node(flowchart, "End", shape = "rectangle")
+Understanding the difference between methods and methodology is of paramount importance. Method is simply a research tool, a component of research – say for example, a qualitative method such as interviews. Methodology is the justification for using a particular research method.
 
-# Add edges to connect the nodes
-flowchart <- add_edge(flowchart, from = "Start", to = "Process 1")
-flowchart <- add_edge(flowchart, from = "Process 1", to = "Process 2")
-flowchart <- add_edge(flowchart, from = "Process 2", to = "End")
+## Frameworks, Theory and Models
 
-# Render and display the flowchart diagram
-render_graph(flowchart)
-```
+2.2 Framework—Theory–Model: Distinctions among these three analytical tools are
+especially important for analysts to remember.
+2.2.1 Framework identifies, categorizes, and organizes those factors deemed most
+relevant to understanding some phenomenon.
+2.2.2 Theory posits general causal relationships among some subsets of these
+variables or categories of factors, designating some types of factors as
+especially important and others as less critical for explanatory purposes.
+2.2.3 Model specifies the specific functional relationships among particular variables
+or indicators that are hypothesized to operate in some well-defined
+set of conditions.
 
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+See: An Introduction to IAD and the Language of the Ostrom
+Workshop: A Simple Guide to a Complex Frameworkpsj_401 169..184
+Michael D. McGinnis
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+## The Research Process {#process}
+
+## Choosing a strategy {#strategy}
+
+Abstract: The chapter will introduce the main dimensions of TEL research, which are theoretical assumptions and models, technology development and innovation methods, contextual embedding, daily practice and pedagogy, as also empirical evidence generated from formative and summative evaluations. Based on the main objectives of a research project different examples for TEL research are described and classified.  Objectives in TEL research range from targeting for the innovation of new technologies based on theoretical assumptions, implementing technology in daily practice, generating research evidence for enhancing theoretical underpinnings or embedding technology in practices to enhance learning. To ensure sound research quality and outcomes TEL researchers on the one hand need to prioritize objectives and on the other hand need to be aware of the relations between the different dimensions. The chapter introduces guiding questions for the four dimensions of TEL research projects and how these should be used to balance research and create high quality research outcomes. The examples given also illustrate different TEL research projects and how these have combined different methods in a process which links and considers all four dimensions. Strategic guidance for the TEL researcher is implemented with the TheTePrEv Framework which helps to identify blind spots and missing components for methodological choices in research projects.
+
+
+
+## Interdisciplinary work
+
+In general TEL is an interdisciplinary field bringing together different research backgrounds as also different research objectives. While engineering sciences mostly have the objective to create and design artefacts, the social and behavioural sciences more target humans interaction with these artefacts and the effects therefrom. In that sense TEL projects bring together these objectives on a high level, in a first step you therefore have to answer different questions:
+What kind of technology do you want to use? What are the main characteristics of the technology you want to use and how do you specify the main activity that users do with your software or artefact?
+
+What are the enhancements you expect from the use of such technology and what are your expected outcomes? How do you plan to measure these outcomes?
+
+What is the main learning you would like to see in the educational context? How you you describe learning in that context? What problems and barriers are there in the current educational implementation and setting? Are the problems in the environmental settings or are there problems of users for learning from the available support?
+
+
+
+
