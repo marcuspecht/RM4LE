@@ -1,4 +1,4 @@
-# Exercise
+# Exercises
 
 Here you can see an Shiny-exercise embedded.
 
