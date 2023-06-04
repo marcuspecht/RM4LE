@@ -1,6 +1,6 @@
 # Example chapter
 
-
+This text is an Example for our Head editor. 
 
 On the role of technology in technology-enhanced learning research
 Marco Kalz
