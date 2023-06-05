@@ -7,6 +7,8 @@
 # Session Data files
 .RData
 .RDataTmp
+*.log
+*.tex
 
 # User-specific files
 .Ruserdata
@@ -47,3 +49,4 @@ _book/
 
 # MacOS files
 **/.DS_Store
+_bookdown_files/bookdown-demo_files/figure-html/nice-fig-1.png
