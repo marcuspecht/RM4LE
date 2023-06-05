@@ -1,6 +1,10 @@
 
+
 - Foundations
   - Why this book?
+
+
+
   - Research methods for whom?
   - A simplified research model and it's principles
   - How to use this book?
