@@ -1,7 +1,8 @@
-FROM conoria/alpine-r-bookdown
+# Not usefull for PDF generation 
+FROM r-base:4.3.0
 
-WORKDIR /usr/src
+WORKDIR /app
 
-COPY . .
+RUN R -e "install.packages('bookdown', repos='http://cran.rstudio.com/')"
 
-RUN R -q -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")' && mv _book /public
+COPY . . 

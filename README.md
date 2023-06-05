@@ -8,10 +8,20 @@ For the full contributor list see [github repo](https://github.com/marcuspecht/R
 
 TBD
 
+### How to cite
+
+TBD
+
+### Outline
+
+- Chapter Title 
+
 ### How to contribute
 
 TBD
 
 ### How to build 
 
-TBD marcuspecht/RM4LE#1
+To build the entire book use: 
+
+TDB BY Christian
