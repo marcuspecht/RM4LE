@@ -12,6 +12,6 @@ TBD
 
 TBD
 
-### How to build 
+### How to build 
 
 TBD marcuspecht/RM4LE#1
