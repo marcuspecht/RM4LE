@@ -1,5 +1,17 @@
-[![Build Status](https://travis-ci.com/rstudio/bookdown-demo.svg?branch=master)](https://travis-ci.com/rstudio/bookdown-demo)
+## Reseach Methods for Learning and Teaching
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+Lead Editor: Marcus Specht
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+For the full contributor list see [github repo](https://github.com/marcuspecht/RM4LE).
+
+### About this book
+
+TBD
+
+### How to contribute
+
+TBD
+
+### How to build 
+
+TBD marcuspecht/RM4LE#1
