@@ -77,7 +77,7 @@ If files are loaded in `R` or `python` code, these must also use the chapter pat
 
 To build the entire book during editing
 
-First create the build environment.
+First prepare the build environment by building a docker container.
 
 ```bash 
 docker build -t rm4le:latest .
