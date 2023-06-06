@@ -63,7 +63,7 @@ To build the entire book during editing
 First create the build environment.
 
 ```bash 
-docker build -t rm4le:latest _contrib/Dockerfile
+docker build -t rm4le:latest .
 ```
 
 Then happily edit the content and every now and then run:
