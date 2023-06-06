@@ -7,7 +7,7 @@ COPY _contrib/* .
 
 RUN chmod 755 *.sh && \
     apt-get update --yes && \
-    apt-get install -y --no-install-recommends $(cat _packages.txt) && \
+    apt-get install -y --no-install-recommends $(cat packages.txt) && \
     apt-get autoremove --purge && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*

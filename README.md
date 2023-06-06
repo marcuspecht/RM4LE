@@ -54,7 +54,24 @@ TBD
 
 ### How to contribute
 
-TBD
+This book is open to chapter proposals. For proposals open a new [issue](marcuspecht/RM4LE/issues) that includes the following information: 
+
+- Chapter Title
+- Short Rationale/Abstract
+- Chapter Outline
+- Additional Authors
+
+The chapters are limited to approx. 5-10 pages and need focus on practical implications of a particular research method.
+
+The chapters of this book are organised in the [`chapters`-folder](main/chapters), where each chapter has its own subfolder. This chapter folder contains the text and all auxiliary files, including figures, data tables, and references. The chapter author is responsible for the organisations of the files in the chapter directory. 
+
+Because of the folder structure, images have to get linked by their full path. E.g., `chapters/00-overview/image1.png`. This can be used with the usual markdown syntax as such: 
+
+```markdown
+![Image Caption](chapters/00-overview/image1.png)
+```
+
+If files are loaded in `R` or `python` code, these must also use the chapter path. 
 
 ### How to build 
 
@@ -63,7 +80,7 @@ To build the entire book during editing
 First create the build environment.
 
 ```bash 
-docker build -t rm4le:latest _contrib/Dockerfile
+docker build -t rm4le:latest .
 ```
 
 Then happily edit the content and every now and then run:
