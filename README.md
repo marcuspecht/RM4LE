@@ -1,4 +1,4 @@
-## Reseach Methods for Learning and Teaching
+# Reseach Methods for Learning and Teaching
 
 Lead Editor: Marcus Specht
 
