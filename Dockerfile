@@ -16,4 +16,4 @@ RUN R -e "install.packages(c('bookdown', 'DiagrammeR'), repos='http://cran.rstud
 
 WORKDIR /data
 
-CMD  ["/app/_build.sh"]
+CMD  ["/app/build.sh"]
