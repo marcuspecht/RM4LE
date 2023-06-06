@@ -26,15 +26,15 @@ TBD
   - Choosing the appropriate method (MOOC)
   - Mixed Method Designs (MOOC)
   
-- Understanding previous work
+- Understanding the legacy
   - Literature review
   - Meta Analysis
-  - Simulations
 
 - Engaging with stakeholders
   - Prototyping
-  - Focus groups
-  - Group concept mapping
+  - Focus groups (Gitte, Marcus)
+  - Surveys (Eyal)
+  - Group concept mapping (Christian)
 
 - Formative methods
   - Task performance studies
@@ -44,6 +44,10 @@ TBD
   - Quasi experimental studies
   - Lab experiments
   - Field studies
+  
+- Computational Methods
+  - Simulations
+  - Machine learning models
   
 - Research project cases and short descriptions
 
