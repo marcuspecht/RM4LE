@@ -52,14 +52,22 @@ TBD
 - Research project cases and short descriptions
 
 
-
-
 ### How to contribute
 
 TBD
 
 ### How to build 
 
-To build the entire book use: 
+To build the entire book during editing
 
-TDB BY Christian
+First create the build environment.
+
+```bash 
+docker build -t rm4le:latest _contrib/Dockerfile
+```
+
+Then happily edit the content and every now and then run:
+
+```bash
+docker run -it -v $(pwd):/data rm4le:latest 
+```
