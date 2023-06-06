@@ -1,10 +1,10 @@
-# Part 3: Engaging with users {-}
+# (PART) Engaging with users {-}
 
-## Context Analysis
+# Context Analysis
 
-## Requirements Engineering
+# Requirements Engineering
 
-## Participatory Design
+# Participatory Design
 
 
 

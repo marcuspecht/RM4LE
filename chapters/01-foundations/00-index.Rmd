@@ -1,13 +1,4 @@
----
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
----
-
-
-
-# Part 1: Foundations {-}
+# (PART) Foundations {-}
 
 Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
 

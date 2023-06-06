@@ -1,4 +1,4 @@
-# Part 2: Desktop Research {-}
+# (PART) Desktop Research {-}
 
 Here is a review of existing methods.
 
