@@ -5,23 +5,6 @@ output:
   word_document: default
 ---
 
-# Why this book ? {#intro}
-
-not known
-
-```{r eval=TRUE, echo=FALSE}
-library("DiagrammeR")
-DiagrammeR("
-  graph LR
-    A-->B
-    A-->C
-    C-->E
-    B-->D
-    C-->D
-    D-->F
-    E-->F
-")
-```
 
 # Foundations
 

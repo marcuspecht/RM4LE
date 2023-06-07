@@ -5,6 +5,17 @@ output:
   word_document: default
 ---
 
-## Subsection Overview
+## Different Strategies in research
 
-Subsection
+
+```{r eval=TRUE, echo=FALSE}
+library("DiagrammeR")
+DiagrammeR("
+  graph LR
+    A(from theory)-->D
+    B(from technology)-->D
+    C(from practice)-->D
+    D(the research question)-->E(where to start)
+    E-->F(what data to be collected)
+")
+```

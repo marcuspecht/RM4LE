@@ -6,6 +6,16 @@ output:
 ---
 
 
-# Overview
+# Why this book?
 
-Overview Chapte
+There are plenty of good books on research methods for different disciplines, so why another one? This is related to several challenges I realised when developing a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplfied introduction to research methods on which particpants could build but also finish the course with a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive  overview. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.
+
+## Research methods for whom?
+
+This book is for students of every age and background which enjoy learning about these topics. One scenario is bachelor and master students which have to do a research project in there studies. Some of the foundations chapters should give them a primer for the structure and decisions to make to come to a study design. On the other hand this is also for multi year research settings as in a PhD project or other projects.
+
+The focus of this book is on research methods that are used to understand human-computer systems mostly in the field of learning and teaching with technology. Of course the methods are helpful, useful and can be applied in other domains but this is the main focus.
+
+## A simplified research model and it's principles
+
+Some might reject this book due to the lack of a decision on one overarching methodology and approach, nevertheless we give pointers to different research & development approaches in the foundation chapter this book is not taking favour of one research approach. It tries to highlight the principles that are important when doing research on technologies, learning and teaching. These include understand the legacy, engaging with users, fast prototyping and agile development, product iterations and context adaptions, ...
