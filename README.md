@@ -74,9 +74,12 @@ TBD
   - Field studies
   - Simulations
   
-  
-  
-- Research project cases and short descriptions
+- Close the loop
+  - Developing theory
+  - Reshaping technology
+  - Impact on practice
+  - Refining your strategy
+
 
 
 ### How to contribute
