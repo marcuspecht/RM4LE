@@ -1,1 +1,5 @@
 # Research methods for whom?
+
+This book is for students of every age and background which enjoy learning about these topics. One scenario is bachelor and master students which have to do a research project in there studies. Some of the foundations chapters should give them a primer for the structure and decisions to make to come to a study design. On the other hand this is also for multi year research settings as in a PhD project or other projects.
+
+The focus of this book is on research methods that are used to understand human-computer systems mostly in the field of learning and teaching with technology. Of course the methods are helpful, useful and can be applied in other domains but this is the main focus.
