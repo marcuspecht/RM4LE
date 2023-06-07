@@ -8,6 +8,6 @@ output:
 
 # (PART\*) Overview {-}
 
-## A simplified research model and it's principles
+# A simplified research model and it's principles
 
 Some might reject this book due to the lack of a decision on one overarching methodology and approach, nevertheless we give pointers to different research & development approaches in the foundation chapter this book is not taking favour of one research approach. It tries to highlight the principles that are important when doing research on technologies, learning and teaching. These include understand the legacy, engaging with users, fast prototyping and agile development, product iterations and context adaptions, ...
