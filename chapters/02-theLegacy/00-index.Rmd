@@ -1,5 +1,7 @@
 # (PART) Understanding the legacy {-}
 
+# Understanding the history
+
 Here is a review of existing methods.
 
 ## Literature Review

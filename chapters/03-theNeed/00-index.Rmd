@@ -1,10 +1,12 @@
 # (PART) Engaging with users {-}
 
-# Context Analysis
+# Focus Groups
 
-# Requirements Engineering
+# Surveys
 
-# Participatory Design
+# GCM
+
+# Delphi
 
 
 

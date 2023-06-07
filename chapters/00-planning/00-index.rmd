@@ -8,6 +8,7 @@ output:
 
 # (PART) Making a plan {-}
 
+# Setting an approach
 
 ## A simplified research model and it's principles
 

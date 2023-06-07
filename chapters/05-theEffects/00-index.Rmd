@@ -1,9 +1,1 @@
 # (PART) Summative Methods {-}
-
-# Experiments
-
-# Quasi Experiments
-
-# Field Studies
-
-# Experience Sampling
