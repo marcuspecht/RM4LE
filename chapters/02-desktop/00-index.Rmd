@@ -1,4 +1,4 @@
-# (PART) Desktop Research {-}
+# (PART) Understanding the legacy {-}
 
 Here is a review of existing methods.
 
