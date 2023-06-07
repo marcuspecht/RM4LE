@@ -1,15 +1,7 @@
 
-<<<<<<< HEAD:chapters/01-intro/00-index.Rmd
-
-# Foundations
 
 Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
 
-- getting an open content book
-=======
-# On the role of technology in technology-enhanced learning research
-*Marco Kalz*
->>>>>>> d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/01-foundations/01-technology-in-tel.rmd
 
 
 > **Abstract:** This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.
