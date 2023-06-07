@@ -38,7 +38,8 @@ TBD
   - A simplified research model and it's principles
   - How to use this book?
   
-- Planning your research
+- Planning your research (Marco)
+  - Different approaches for TEL research
   - Problems and research questions?
   - Theoretical Modelling and Conceptual Frameworks (MOOC)
   - Choosing the appropriate method (MOOC)
@@ -47,27 +48,33 @@ TBD
   
 - The shared foundations ()
   - Data, Levels and Scales
-  - Variables
-  - Conceptual Models
-  - Causal Models
+  - Variables 
+  - Conceptual Models (Marcus)
+  - Surveys (Eyal)
+  - Causal Models (Josh, Hendrik)
   
-- Understanding prior research
-  - Literature review
+- Understanding prior research (Marcus)
+  - Literature review (Marcus)
   - Meta Analysis
 
-- Identifying the need
-  - Surveys (Eyal)
-  - Acceptance Studies and Attitude
+- Identifying the need (Christian)
+  - Acceptance Studies and Attitude (Marcus)
   - Group concept mapping (Christian)
   - Focus groups (Gitte, Marcus)
-  - Correlational studies
+  - Correlational studies (Marco)
   
-- Assessing impact
+- Design and development
+  - Usability check (SUS)
+  - Fast prototyping and agile development
+  
+- Assessing effects (Hendrik)
   - Lab experiments
   - Quasi experimental studies
   - Task performance studies
   - Field studies
   - Simulations
+  
+  
   
 - Research project cases and short descriptions
 
