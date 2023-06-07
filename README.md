@@ -45,7 +45,7 @@ TBD
   - Mixed Method Designs (MOOC)
   - Formative and summative studies
   
-- Foundations ()
+- The shared foundations ()
   - Data, Levels and Scales
   - Variables
   - Conceptual Models
@@ -55,23 +55,19 @@ TBD
   - Literature review
   - Meta Analysis
 
-- Understanding the need
-  - Prototyping
-  - Focus groups (Gitte, Marcus)
+- Identifying the need
   - Surveys (Eyal)
+  - Acceptance Studies and Attitude
   - Group concept mapping (Christian)
+  - Focus groups (Gitte, Marcus)
+  - Correlational studies
   
-- Collecting Evidence
-  - Formative methods
-    - Task performance studies
-    - Piloting
-  - Summative methods
-    - Quasi experimental studies
-    - Lab experiments
-    - Field studies
-  - Computational Methods
-    - Simulations
-    - Machine learning models
+- Assessing impact
+  - Lab experiments
+  - Quasi experimental studies
+  - Task performance studies
+  - Field studies
+  - Simulations
   
 - Research project cases and short descriptions
 
