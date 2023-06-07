@@ -6,7 +6,8 @@ output:
 ---
 
 
-# (PART\*) Overview {-}
+# (PART) Making a plan {-}
+
 
 # A simplified research model and it's principles
 
