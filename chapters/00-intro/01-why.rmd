@@ -13,13 +13,11 @@ There are plenty of good books on research methods for different disciplines, so
 library("DiagrammeR")
 DiagrammeR("
   graph LR
-    A-->B
-    A-->C
-    C-->E
-    B-->D
-    C-->D
-    D-->F
-    E-->F
+    A(from theory)-->D
+    B(from technology)-->D
+    C(from practice)-->D
+    D(the research question)-->E(where to start)
+    E-->F(what data to be collected)
 ")
 ```
 
