@@ -477,7 +477,7 @@ Here is a review of existing methods.
 
 
 
-<!--chapter:end:chapters/02-legacy/00-index.Rmd-->
+<!--chapter:end:chapters/02-theLegacy/00-index.Rmd-->
 
 # (PART) Engaging with users {-}
 
@@ -490,7 +490,7 @@ Here is a review of existing methods.
 
 
 
-<!--chapter:end:chapters/03-stakeholders/00-index.Rmd-->
+<!--chapter:end:chapters/03-theNeed/00-index.Rmd-->
 
 ---
 author: TBA, Marcus Specht
@@ -522,14 +522,14 @@ DiagrammeR("
 stub
 >>>>>>> d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/03-stakeholders/02-focus-groups.Rmd
 
-<!--chapter:end:chapters/03-stakeholders/02-focus-groups.Rmd-->
+<!--chapter:end:chapters/03-theNeed/02-focus-groups.Rmd-->
 
 # Surveys 
 *TBA*
 
 stub
 
-<!--chapter:end:chapters/03-stakeholders/03-surveys.Rmd-->
+<!--chapter:end:chapters/03-theNeed/03-surveys.Rmd-->
 
 # Group Concept Mapping
 *Christian Glahn*
@@ -540,13 +540,13 @@ stub
 
 stub
 
-<!--chapter:end:chapters/03-stakeholders/04-gcm.Rmd-->
+<!--chapter:end:chapters/03-theNeed/04-gcm.Rmd-->
 
 # Delphi Method
 *TBA*
 stub
 
-<!--chapter:end:chapters/03-stakeholders/05-Delphi-method.Rmd-->
+<!--chapter:end:chapters/03-theNeed/05-Delphi-method.Rmd-->
 
 # (PART) Formative Methods {-}
 
@@ -562,7 +562,7 @@ stub
 
 
 
-<!--chapter:end:chapters/04-formative/00-index.Rmd-->
+<!--chapter:end:chapters/04-designdevelop/00-index.Rmd-->
 
 # (PART) Summative Methods {-}
 
@@ -574,7 +574,7 @@ stub
 
 # Experience Sampling
 
-<!--chapter:end:chapters/05-summative/00-index.Rmd-->
+<!--chapter:end:chapters/05-theEffects/00-index.Rmd-->
 
 # Example chapter
 
@@ -619,7 +619,7 @@ The other extreme position that is also very famous especially in educational do
 Establishing a middle ground for technology-enhanced learning research
 After having introduced the different perspectives and deterministic stances the question arises if there is also a middle-ground position that is able to overcome the extreme positions.
 
-<!--chapter:end:chapters/06-chapter/00-index.Rmd-->
+<!--chapter:end:chapters/06-theLoop/00-index.Rmd-->
 
 # (PART\*) Exercises {-}
 
