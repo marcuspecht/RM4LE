@@ -32,40 +32,46 @@ TBD
 
 ### Outline
 
-- Foundations
+- Introduction (Marcus)
   - Why this book?
   - Research methods for whom?
   - A simplified research model and it's principles
   - How to use this book?
   
-- Developing a strategy
+- Planning your research
   - Problems and research questions?
   - Theoretical Modelling and Conceptual Frameworks (MOOC)
   - Choosing the appropriate method (MOOC)
   - Mixed Method Designs (MOOC)
-
-- Understanding the legacy
+  - Formative and summative studies
+  
+- Foundations ()
+  - Data, Levels and Scales
+  - Variables
+  - Conceptual Models
+  - Causal Models
+  
+- Understanding prior research
   - Literature review
   - Meta Analysis
 
-- Engaging with stakeholders
+- Understanding the need
   - Prototyping
   - Focus groups (Gitte, Marcus)
   - Surveys (Eyal)
   - Group concept mapping (Christian)
-
-- Formative methods
-  - Task performance studies
-  - Piloting
-
-- Summative methods
-  - Quasi experimental studies
-  - Lab experiments
-  - Field studies
   
-- Computational Methods
-  - Simulations
-  - Machine learning models
+- Collecting Evidence
+  - Formative methods
+    - Task performance studies
+    - Piloting
+  - Summative methods
+    - Quasi experimental studies
+    - Lab experiments
+    - Field studies
+  - Computational Methods
+    - Simulations
+    - Machine learning models
   
 - Research project cases and short descriptions
 
