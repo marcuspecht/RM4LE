@@ -6,7 +6,18 @@ For the full contributor list see [github repo](https://github.com/marcuspecht/R
 
 ### About this book
 
-TBD
+#### Mission
+
+This book is a researcher's guide to methodology with practical examples.
+
+We want to be able to pass this book to our studends from B.Sc. to Ph.D. level in order to enhance the quality of their research.
+
+#### Principles 
+
+1. ~~This book is open source and freely available.~~
+1. We use real research for the examples. This research **must** be open access (if possible). 
+1. We define practical as those concepts that are directly applicable in research projects. This includes practices, tooling, and pitfalls. 
+1. We use open real-world data for examples.
 
 ### How to cite
 
@@ -25,7 +36,7 @@ TBD
   - Theoretical Modelling and Conceptual Frameworks (MOOC)
   - Choosing the appropriate method (MOOC)
   - Mixed Method Designs (MOOC)
-  
+
 - Understanding the legacy
   - Literature review
   - Meta Analysis
