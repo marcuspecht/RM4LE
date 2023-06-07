@@ -1,10 +1,10 @@
-# Exercises
+# (PART\*) Exercises {-}
 
 Here you can see an Shiny-exercise embedded.
 
-## Example one
+# Example one
 
-## Example two
+# Example two
 
 ```{r}
 knitr::include_app("https://mkalz.shinyapps.io/Data2TEachModulCVariablenzuordnung/",

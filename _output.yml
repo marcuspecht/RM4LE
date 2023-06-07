@@ -7,10 +7,12 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/marcuspecht/RM4LE/main/%s
-    # download: ["pdf", "epub"]
+    download: 
+      - pdf
+      - epub
 bookdown::pdf_book:
   includes:
-    in_header: preamble.tex
+    in_header: _contrib/preamble.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes

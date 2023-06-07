@@ -1,12 +1,12 @@
-# Formative Methods
+# (PART) Formative Methods {-}
 
-## Agile Development and SCRUM
+# Agile Development and SCRUM
 
-## Prototyping
+# Prototyping
 
-## Focus Groups
+# ~~Focus Groups~~
 
-## Task performance studies
+# Task performance studies
 
 
 

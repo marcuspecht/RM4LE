@@ -1,4 +1,4 @@
-## Reseach Methods for Learning and Teaching
+# Reseach Methods for Learning and Teaching
 
 Lead Editor: Marcus Specht
 
@@ -61,7 +61,7 @@ This book is open to chapter proposals. For proposals open a new [issue](marcusp
 - Chapter Outline
 - Additional Authors
 
-The chapters are limited to approx. 5-10 pages and need focus on practical implications of a particular research method.
+The chapters are limited to approx. 5-10 pages or 2000-5000 words. A chapter needs to focus on the practices of a particular research method.
 
 The chapters of this book are organised in the [`chapters`-folder](main/chapters), where each chapter has its own subfolder. This chapter folder contains the text and all auxiliary files, including figures, data tables, and references. The chapter author is responsible for the organisations of the files in the chapter directory. 
 
@@ -77,7 +77,7 @@ If files are loaded in `R` or `python` code, these must also use the chapter pat
 
 To build the entire book during editing
 
-First create the build environment.
+First prepare the build environment by building a docker container.
 
 ```bash 
 docker build -t rm4le:latest .

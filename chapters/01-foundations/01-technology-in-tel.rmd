@@ -1,25 +1,20 @@
----
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
----
 
+<<<<<<< HEAD:chapters/01-intro/00-index.Rmd
 
 # Foundations
 
 Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
 
 - getting an open content book
+=======
+# On the role of technology in technology-enhanced learning research
+*Marco Kalz*
+>>>>>>> d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/01-foundations/01-technology-in-tel.rmd
 
 
-## On the role of technology in technology-enhanced learning research
-Marco Kalz
-
-
-Abstract: This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.
-
-Keywords:  TEL, technology, technological determinism, social determinism, middle-ground
+> **Abstract:** This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.
+>
+> **Keywords:**  TEL, technology, technological determinism, social determinism, middle-ground
 
 There has been an ongoing critique regarding the role of educational theory for research on educational technology (Ravenscroft, 2001). On the other hand, the role of technology itself has been seldom discussed in the field of technology-enhanced learning. This chapter discusses the different perspectives on the role of technology in technology-enhanced learning research. To position the field of technology-enhanced learning in relation to earlier research fields, it is useful to discuss related definitions. In an early definition of educational technology, the AECT Task Force on Definition and Terminology points out that educational technology should not be confused with the application of technology in education. According to the AECT (1977) the field of educational technology defines technology in a broad sense as the application of an “integrated process involving people, procedures, ideas, devices, and organization, for analyzing problems and devising, implementing, evaluating and managing solutions to those problems, in all aspects of human learning”. This definition goes beyond technology in the sense of technics and includes a variety of methods and approaches which do not involve technological artifacts.
 
@@ -106,7 +101,4 @@ What kind of technology do you want to use? What are the main characteristics of
 What are the enhancements you expect from the use of such technology and what are your expected outcomes? How do you plan to measure these outcomes?
 
 What is the main learning you would like to see in the educational context? How you you describe learning in that context? What problems and barriers are there in the current educational implementation and setting? Are the problems in the environmental settings or are there problems of users for learning from the available support?
-
-
-
 

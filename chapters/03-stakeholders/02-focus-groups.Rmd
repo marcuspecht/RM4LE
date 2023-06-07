@@ -1,10 +1,12 @@
 ---
+author: TBA, Marcus Specht
 output:
   html_document: default
   pdf_document: default
   word_document: default
 ---
 
+<<<<<<< HEAD:chapters/00-overview/01-subsection.rmd
 ## Different Strategies in research
 
 
@@ -19,3 +21,9 @@ DiagrammeR("
     E-->F(what data to be collected)
 ")
 ```
+=======
+# Focus Groups
+*Gitte Saunders*, *Marcus Specht*
+
+stub
+>>>>>>> d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/03-stakeholders/02-focus-groups.Rmd
