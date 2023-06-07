@@ -12,12 +12,19 @@ This book is a researcher's guide to methodology with practical examples.
 
 We want to be able to pass this book to our studends from B.Sc. to Ph.D. level in order to enhance the quality of their research.
 
-#### Principles 
+#### Principles of this book
 
 1. ~~This book is open source and freely available.~~
 1. We use real research for the examples. This research **must** be open access (if possible). 
 1. We define practical as those concepts that are directly applicable in research projects. This includes practices, tooling, and pitfalls. 
 1. We use open real-world data for examples.
+
+
+#### Approaches
+
+- Problem-driven
+- Technology-driven
+- Theory-driven
 
 ### How to cite
 
