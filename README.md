@@ -80,8 +80,6 @@ TBD
   - Impact on practice
   - Refining your strategy
 
-
-
 ### How to contribute
 
 This book is open to chapter proposals. For proposals open a new [issue](marcuspecht/RM4LE/issues) that includes the following information: 
