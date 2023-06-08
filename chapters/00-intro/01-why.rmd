@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 ---
 # Introduction
@@ -18,6 +18,10 @@ DiagrammeR("
     B(from technology)-->D
     C(from practice)-->D
     D(the research question)-->E(where to start)
+    A(Understanding the problem, challenge, target, objective, context)-->D
+    B(Defining your research question)-->D
+    C(Understanding the legacy and prior research)-->D
+    D(Engaging with users for participatory design)-->E(Validating design options - formative studies)
     E-->F(what data to be collected)
 ")
 
