@@ -13,3 +13,15 @@ output:
 ## A simplified research model and it's principles
 
 Some might reject this book due to the lack of a decision on one overarching methodology and approach, nevertheless we give pointers to different research & development approaches in the foundation chapter this book is not taking favour of one research approach. It tries to highlight the principles that are important when doing research on technologies, learning and teaching. These include understand the legacy, engaging with users, fast prototyping and agile development, product iterations and context adaptions, ...
+
+## Different functions of research
+
+  1. to describe: e.g., what is the achievement of Chinese grade 8 pupils in mathematics?; what barriers to students’ experience in the learning of mathematical modelling? 
+  
+  2. to compare: e.g., what are the differences and similarities between the Chinese and the Netherlands curriculum for primary education?; what is the achievement in mathematics of Chinese grade 8 pupils as compared to that in certain other countries? 
+  
+  3. to evaluate: e.g., how well does a program function in terms of competences of graduates?; what are the strengths and weaknesses of a certain approach?; etc. 
+  
+  4. to explain or to predict: e.g., what are the causes of poor performance in mathematics (i.e. in search of a ‘theory’ predicting a phenomenon when certain conditions or characteristics are met)? 
+  
+  5. to design and develop: e.g., what are the characteristics of an effective teaching and learning strategy aimed at acquiring certain learning outcomes?.

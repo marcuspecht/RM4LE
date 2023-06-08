@@ -20,6 +20,8 @@ DiagrammeR("
     D(the research question)-->E(where to start)
     E-->F(what data to be collected)
 ")
+
+
 ```
 
 ## Research methods for whom?
