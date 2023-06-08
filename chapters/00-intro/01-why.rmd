@@ -30,3 +30,7 @@ This book is for students of every age and background which enjoy learning about
 
 The focus of this book is on research methods that are used to understand human-computer systems mostly in the field of learning and teaching with technology. Of course the methods are helpful, useful and can be applied in other domains but this is the main focus.
 
+
+## How to use this book?
+
+
