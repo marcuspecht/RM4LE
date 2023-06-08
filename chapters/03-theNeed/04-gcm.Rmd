@@ -2,7 +2,23 @@
 *Christian Glahn*
 
 > **Abstract:** 
+> Group Concept Mapping 
 > 
-> **Keywords:**
+> **Keywords:** GCM, stakeholder research, concept extraction, cluster analysis
 
-stub
+## Research questions to answer using GCM
+
+## Method
+
+## Outcomes
+
+## Interpretation
+
+## Tools
+
+### Idea generation and clustering
+
+### Rating
+
+## Pitfalls
+
