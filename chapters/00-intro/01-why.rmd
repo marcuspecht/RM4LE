@@ -8,23 +8,30 @@ output:
 
 ## Why this book ? {#intro}
 
-There are plenty of good books on research methods for different disciplines, so why another one? This is related to several challenges I realised when developing a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplfied introduction to research methods on which particpants could build but also finish the course with a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive  overview. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.
+
+There are plenty of good books on research methods for different disciplines, so why another one? 
+
+One starting point was the development of a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplified introduction to research methods on which participants could build. The MOOC targeted to give participants a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive overview on many methods and research instruments. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.
+
+A second issue was the long ongoing discussion of the TEL community on how to develop a flexible approach and strategy for doing Technology Enhanced Learning Research coming from different starting points and disciplinary backgrounds.
+A second issue was the long ongoing discussion of the TEL community on how to develop a flexible approach and strategy for doing Technology Enhanced Learning Research coming from different starting points and disciplinary backgrounds [kalz_assessing_2014].
 
 ```{r eval=TRUE, echo=FALSE}
 library("DiagrammeR")
 DiagrammeR("
   graph LR
-    A(from theory)-->D
-    B(from technology)-->D
-    C(from practice)-->D
-    D(the research question)-->E(where to start)
-    A(Understanding the problem, challenge, target, objective, context)-->D
-    B(Defining your research question)-->D
-    C(Understanding the legacy and prior research)-->D
-    D(Engaging with users for participatory design)-->E(Validating design options - formative studies)
-    E-->F(what data to be collected)
-")
 
+    A(Understanding the problem, challenge, target, objective, context)-->D(Select your research approach)
+    B(What are the affordances of the technology)-->D
+    C(What is your practical problem yu start with)-->D
+    D-->E(Defining your research question)
+    E-->F(Design Based Research)
+    E-->G(Participatory Design)
+    E-->H(Educational Research)
+    F-->(Result)
+    G-->(Result)
+    H-->(Result)
+")
 
 ```
 
