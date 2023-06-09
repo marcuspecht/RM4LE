@@ -1,5 +1,4 @@
 ---
-author: TBA, Marcus Specht
 output:
   html_document: default
   pdf_document: default
@@ -7,4 +6,4 @@ output:
 ---
 
 # Focus Groups
-*Gitte Saunders*, *Marcus Specht*
+*Gillian Saunders*, *Marcus Specht*

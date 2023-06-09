@@ -6,6 +6,7 @@ site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
 bibliography: 
+  - chapters/03-theNeed/references.bib
   - book.bib
   - packages.bib
 biblio-style: apalike
