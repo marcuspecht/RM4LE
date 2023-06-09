@@ -7,7 +7,7 @@ COPY _contrib/* .
 
 RUN chmod 755 *.sh && \
     apt-get update --yes && \
-    apt-get install -y --no-install-recommends $(cat _packages.txt) && \
+    apt-get install -y --no-install-recommends $(cat packages.txt) && \
     apt-get autoremove --purge && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
@@ -16,4 +16,4 @@ RUN R -e "install.packages(c('bookdown', 'DiagrammeR'), repos='http://cran.rstud
 
 WORKDIR /data
 
-CMD  ["/app/_build.sh"]
+CMD  ["/app/build.sh"]

@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Research Methods for Learning Engineering</title>
+  <meta name="description" content="This is an edited open content book research methods supporting educational innovation and learing engineering." />
+  <meta name="generator" content="bookdown #bookdown:version# and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Research Methods for Learning Engineering" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="This is an edited open content book research methods supporting educational innovation and learing engineering." />
+  <meta name="github-repo" content="<a href="https://github.com/marcuspecht/RM4LE" class="uri">https://github.com/marcuspecht/RM4LE</a>" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Research Methods for Learning Engineering" />
+  
+  <meta name="twitter:description" content="This is an edited open content book research methods supporting educational innovation and learing engineering." />
+  
+
+<meta name="author" content="TBA, Marcus Specht" />
+
+
+<meta name="date" content="2023-06-07" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<script src="libs/d3-3.3.8/d3.min.js"></script>
+<script src="libs/dagre-0.4.0/dagre-d3.min.js"></script>
+<link href="libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
+<script src="libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/chromatography-0.1/chromatography.js"></script>
+<script src="libs/DiagrammeR-binding-1.0.10/DiagrammeR.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+<!--bookdown:title:start-->
+<div id="header">
+<h1 class="title">Research Methods for Learning Engineering</h1>
+<p class="author"><em>TBA, Marcus Specht</em></p>
+<p class="date"><em>2023-06-07</em></p>
+</div>
+<!--bookdown:title:end-->
+
+<!--bookdown:toc:start-->
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+<!--bookdown:toc2:start-->
+<ul>
+<li><a href="#intro"><span class="toc-section-number">0.1</span> Why this book ?<span></span></a></li>
+<li><a href="#research-methods-for-whom"><span class="toc-section-number">0.2</span> Research methods for whom?<span></span></a></li>
+<li><a href="#part-making-a-plan">(PART) Making a plan<span></span></a>
+<ul>
+<li><a href="#a-simplified-research-model-and-its-principles"><span class="toc-section-number">0.3</span> A simplified research model and it’s principles<span></span></a></li>
+</ul></li>
+<li><a href="#part-foundations">(PART) Foundations<span></span></a>
+<ul>
+<li><a href="#scales-and-data-levels"><span class="toc-section-number">0.4</span> Scales and data levels<span></span></a></li>
+<li><a href="#variables-and-conceptual-models"><span class="toc-section-number">0.5</span> Variables and conceptual models<span></span></a></li>
+<li><a href="#definitions"><span class="toc-section-number">0.6</span> Definitions and terminology<span></span></a></li>
+<li><a href="#frameworks-theory-and-models"><span class="toc-section-number">0.7</span> Frameworks, Theory and Models<span></span></a></li>
+<li><a href="#process"><span class="toc-section-number">0.8</span> The Research Process<span></span></a></li>
+<li><a href="#strategy"><span class="toc-section-number">0.9</span> Choosing a strategy<span></span></a></li>
+<li><a href="#interdisciplinary-work"><span class="toc-section-number">0.10</span> Interdisciplinary work<span></span></a></li>
+</ul></li>
+<li><a href="#part-understanding-the-legacy">(PART) Understanding the legacy<span></span></a></li>
+<li><a href="#literature-review"><span class="toc-section-number">1</span> Literature Review<span></span></a></li>
+<li><a href="#meta-analysis"><span class="toc-section-number">2</span> Meta-Analysis<span></span></a></li>
+<li><a href="#part-engaging-with-users">(PART) Engaging with users<span></span></a></li>
+<li><a href="#context-analysis"><span class="toc-section-number">3</span> Context Analysis<span></span></a></li>
+<li><a href="#requirements-engineering"><span class="toc-section-number">4</span> Requirements Engineering<span></span></a></li>
+<li><a href="#participatory-design"><span class="toc-section-number">5</span> Participatory Design<span></span></a></li>
+<li><a href="#surveys"><span class="toc-section-number">6</span> Surveys<span></span></a></li>
+<li><a href="#group-concept-mapping"><span class="toc-section-number">7</span> Group Concept Mapping<span></span></a></li>
+<li><a href="#delphi-method"><span class="toc-section-number">8</span> Delphi Method<span></span></a></li>
+<li><a href="#part-formative-methods">(PART) Formative Methods<span></span></a></li>
+<li><a href="#agile-development-and-scrum"><span class="toc-section-number">9</span> Agile Development and SCRUM<span></span></a></li>
+<li><a href="#prototyping"><span class="toc-section-number">10</span> Prototyping<span></span></a></li>
+<li><a href="#focus-groups"><span class="toc-section-number">11</span> <del>Focus Groups</del><span></span></a></li>
+<li><a href="#task-performance-studies"><span class="toc-section-number">12</span> Task performance studies<span></span></a></li>
+<li><a href="#part-summative-methods">(PART) Summative Methods<span></span></a></li>
+<li><a href="#experiments"><span class="toc-section-number">13</span> Experiments<span></span></a></li>
+<li><a href="#quasi-experiments"><span class="toc-section-number">14</span> Quasi Experiments<span></span></a></li>
+<li><a href="#field-studies"><span class="toc-section-number">15</span> Field Studies<span></span></a></li>
+<li><a href="#experience-sampling"><span class="toc-section-number">16</span> Experience Sampling<span></span></a></li>
+<li><a href="#example-chapter"><span class="toc-section-number">17</span> Example chapter<span></span></a></li>
+<li><a href="#part-exercises">(PART*) Exercises<span></span></a></li>
+<li><a href="#example-one"><span class="toc-section-number">18</span> Example one<span></span></a></li>
+<li><a href="#authors">Authors<span></span></a>
+<ul>
+<li><a href="#hendrick-drachsler">Hendrick Drachsler<span></span></a></li>
+<li><a href="#christian-glahn">Christian Glahn<span></span></a></li>
+<li><a href="#marco-kalz">Marco Kalz<span></span></a></li>
+<li><a href="#gillian-saunders">Gillian Saunders<span></span></a></li>
+<li><a href="#marcus-specht">Marcus Specht<span></span></a></li>
+</ul></li>
+<li><a href="#references">References<span></span></a>
+<ul>
+<li><a href="#intro"><span class="toc-section-number">18.1</span> Why this book ?<span></span></a></li>
+<li><a href="#research-methods-for-whom-1"><span class="toc-section-number">18.2</span> Research methods for whom?<span></span></a></li>
+</ul></li>
+<li><a href="#part-making-a-plan-1">(PART) Making a plan<span></span></a>
+<ul>
+<li><a href="#a-simplified-research-model-and-its-principles-1"><span class="toc-section-number">18.3</span> A simplified research model and it’s principles<span></span></a></li>
+</ul></li>
+<li><a href="#part-foundations-1">(PART) Foundations<span></span></a>
+<ul>
+<li><a href="#scales-and-data-levels-1"><span class="toc-section-number">18.4</span> Scales and data levels<span></span></a></li>
+<li><a href="#variables-and-conceptual-models-1"><span class="toc-section-number">18.5</span> Variables and conceptual models<span></span></a></li>
+<li><a href="#definitions"><span class="toc-section-number">18.6</span> Definitions and terminology<span></span></a></li>
+<li><a href="#frameworks-theory-and-models-1"><span class="toc-section-number">18.7</span> Frameworks, Theory and Models<span></span></a></li>
+<li><a href="#process"><span class="toc-section-number">18.8</span> The Research Process<span></span></a></li>
+<li><a href="#strategy"><span class="toc-section-number">18.9</span> Choosing a strategy<span></span></a></li>
+<li><a href="#interdisciplinary-work-1"><span class="toc-section-number">18.10</span> Interdisciplinary work<span></span></a></li>
+</ul></li>
+<li><a href="#part-understanding-the-legacy-1">(PART) Understanding the legacy<span></span></a>
+<ul>
+<li><a href="#literature-review-1"><span class="toc-section-number">18.11</span> Literature Review<span></span></a></li>
+<li><a href="#meta-analysis-1"><span class="toc-section-number">18.12</span> Meta-Analysis<span></span></a></li>
+</ul></li>
+<li><a href="#part-engaging-with-users-1">(PART) Engaging with users<span></span></a></li>
+<li><a href="#context-analysis-1"><span class="toc-section-number">19</span> Context Analysis<span></span></a></li>
+<li><a href="#requirements-engineering-1"><span class="toc-section-number">20</span> Requirements Engineering<span></span></a></li>
+<li><a href="#participatory-design-1"><span class="toc-section-number">21</span> Participatory Design<span></span></a></li>
+<li><a href="#surveys-1"><span class="toc-section-number">22</span> Surveys<span></span></a></li>
+<li><a href="#group-concept-mapping-1"><span class="toc-section-number">23</span> Group Concept Mapping<span></span></a></li>
+<li><a href="#delphi-method-1"><span class="toc-section-number">24</span> Delphi Method<span></span></a></li>
+<li><a href="#part-formative-methods-1">(PART) Formative Methods<span></span></a></li>
+<li><a href="#agile-development-and-scrum-1"><span class="toc-section-number">25</span> Agile Development and SCRUM<span></span></a></li>
+<li><a href="#prototyping-1"><span class="toc-section-number">26</span> Prototyping<span></span></a></li>
+<li><a href="#focus-groups-1"><span class="toc-section-number">27</span> <del>Focus Groups</del><span></span></a></li>
+<li><a href="#task-performance-studies-1"><span class="toc-section-number">28</span> Task performance studies<span></span></a></li>
+<li><a href="#part-summative-methods-1">(PART) Summative Methods<span></span></a></li>
+<li><a href="#experiments-1"><span class="toc-section-number">29</span> Experiments<span></span></a></li>
+<li><a href="#quasi-experiments-1"><span class="toc-section-number">30</span> Quasi Experiments<span></span></a></li>
+<li><a href="#field-studies-1"><span class="toc-section-number">31</span> Field Studies<span></span></a></li>
+<li><a href="#experience-sampling-1"><span class="toc-section-number">32</span> Experience Sampling<span></span></a></li>
+<li><a href="#example-chapter-1"><span class="toc-section-number">33</span> Example chapter<span></span></a></li>
+<li><a href="#part-exercises-1">(PART*) Exercises<span></span></a></li>
+<li><a href="#example-one-1"><span class="toc-section-number">34</span> Example one<span></span></a></li>
+<li><a href="#example-two"><span class="toc-section-number">35</span> Example two<span></span></a></li>
+<li><a href="#authors-1">Authors<span></span></a>
+<ul>
+<li><a href="#hendrick-drachsler-1">Hendrick Drachsler<span></span></a></li>
+<li><a href="#christian-glahn-1">Christian Glahn<span></span></a></li>
+<li><a href="#marco-kalz-1">Marco Kalz<span></span></a></li>
+<li><a href="#gillian-saunders-1">Gillian Saunders<span></span></a></li>
+<li><a href="#marcus-specht-1">Marcus Specht<span></span></a></li>
+</ul></li>
+<li><a href="#references-1">References<span></span></a></li>
+</ul>
+<!--bookdown:toc2:end-->
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Research Methods for Learning Engineering</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<!--bookdown:toc:end-->
+<!--bookdown:body:start-->
+<p>Prerequisites for contribution</p>
+<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports, e.g., a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
+<p>The <strong>bookdown</strong> package can be installed from CRAN or Github:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;bookdown&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># or the development version</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># devtools::install_github(&quot;rstudio/bookdown&quot;)</span></span></code></pre></div>
+<p>Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading <code>#</code>.</p>
+<p>To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.name/tinytex/" class="uri">https://yihui.name/tinytex/</a>.</p>
+<!--chapter:end:index.Rmd-->
+<!--chapter:end:index.Rmd-->
+<div id="intro" class="section level2 hasAnchor" number="0.1">
+<h2 class="hasAnchor"><span class="header-section-number">0.1</span> Why this book ?<a href="#intro" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There are plenty of good books on research methods for different disciplines, so why another one? This is related to several challenges I realised when developing a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplfied introduction to research methods on which particpants could build but also finish the course with a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive overview. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.</p>
+<div class="DiagrammeR html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-990233227e3d0ca909cb" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-990233227e3d0ca909cb">{"x":{"diagram":"\n  graph LR\n    A-->B\n    A-->C\n    C-->E\n    B-->D\n    C-->D\n    D-->F\n    E-->F\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="research-methods-for-whom" class="section level2 hasAnchor" number="0.2">
+<h2 class="hasAnchor"><span class="header-section-number">0.2</span> Research methods for whom?<a href="#research-methods-for-whom" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This book is for students of every age and background which enjoy learning about these topics. One scenario is bachelor and master students which have to do a research project in there studies. Some of the foundations chapters should give them a primer for the structure and decisions to make to come to a study design. On the other hand this is also for multi year research settings as in a PhD project or other projects.</p>
+<p>The focus of this book is on research methods that are used to understand human-computer systems mostly in the field of learning and teaching with technology. Of course the methods are helpful, useful and can be applied in other domains but this is the main focus.</p>
+<!--chapter:end:chapters/00-intro/01-why.rmd-->
+</div>
+<div id="part-making-a-plan" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Making a plan<a href="#part-making-a-plan" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="a-simplified-research-model-and-its-principles" class="section level2 hasAnchor" number="0.3">
+<h2 class="hasAnchor"><span class="header-section-number">0.3</span> A simplified research model and it’s principles<a href="#a-simplified-research-model-and-its-principles" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Some might reject this book due to the lack of a decision on one overarching methodology and approach, nevertheless we give pointers to different research &amp; development approaches in the foundation chapter this book is not taking favour of one research approach. It tries to highlight the principles that are important when doing research on technologies, learning and teaching. These include understand the legacy, engaging with users, fast prototyping and agile development, product iterations and context adaptions, …</p>
+<!--chapter:end:chapters/00-planning/00-index.rmd-->
+</div>
+</div>
+<div id="part-foundations" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Foundations<a href="#part-foundations" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.</p>
+<div id="scales-and-data-levels" class="section level2 hasAnchor" number="0.4">
+<h2 class="hasAnchor"><span class="header-section-number">0.4</span> Scales and data levels<a href="#scales-and-data-levels" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="variables-and-conceptual-models" class="section level2 hasAnchor" number="0.5">
+<h2 class="hasAnchor"><span class="header-section-number">0.5</span> Variables and conceptual models<a href="#variables-and-conceptual-models" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>differentiate theory, theoretical model, and framework</p>
+<!--chapter:end:chapters/01-foundations/00-index.Rmd-->
+</div>
+<div id="definitions" class="section level2 hasAnchor" number="0.6">
+<h2 class="hasAnchor"><span class="header-section-number">0.6</span> Definitions and terminology<a href="#definitions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="frameworks-theory-and-models" class="section level2 hasAnchor" number="0.7">
+<h2 class="hasAnchor"><span class="header-section-number">0.7</span> Frameworks, Theory and Models<a href="#frameworks-theory-and-models" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="process" class="section level2 hasAnchor" number="0.8">
+<h2 class="hasAnchor"><span class="header-section-number">0.8</span> The Research Process<a href="#process" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="strategy" class="section level2 hasAnchor" number="0.9">
+<h2 class="hasAnchor"><span class="header-section-number">0.9</span> Choosing a strategy<a href="#strategy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="interdisciplinary-work" class="section level2 hasAnchor" number="0.10">
+<h2 class="hasAnchor"><span class="header-section-number">0.10</span> Interdisciplinary work<a href="#interdisciplinary-work" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/01-foundations/01-technology-in-tel.rmd-->
+</div>
+</div>
+<div id="part-understanding-the-legacy" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Understanding the legacy<a href="#part-understanding-the-legacy" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Here is a review of existing methods.</p>
+</div>
+<div id="literature-review" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span> Literature Review<a href="#literature-review" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="meta-analysis" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span> Meta-Analysis<a href="#meta-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/02-legacy/00-index.Rmd-->
+</div>
+<div id="part-engaging-with-users" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Engaging with users<a href="#part-engaging-with-users" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="context-analysis" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span> Context Analysis<a href="#context-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="requirements-engineering" class="section level1 hasAnchor" number="4">
+<h1 class="hasAnchor"><span class="header-section-number">4</span> Requirements Engineering<a href="#requirements-engineering" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="participatory-design" class="section level1 hasAnchor" number="5">
+<h1 class="hasAnchor"><span class="header-section-number">5</span> Participatory Design<a href="#participatory-design" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/03-stakeholders/00-index.Rmd-->
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:chapters/00-overview/01-subsection.rmd
+## Different Strategies in research</p>
+<div class="DiagrammeR html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d7a7cd85d3a36c05744f" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-d7a7cd85d3a36c05744f">{"x":{"diagram":"\n  graph LR\n    A(from theory)-->D\n    B(from technology)-->D\n    C(from practice)-->D\n    D(the research question)-->E(where to start)\n    E-->F(what data to be collected)\n"},"evals":[],"jsHooks":[]}</script>
+<p>=======
+# Focus Groups
+<em>Gitte Saunders</em>, <em>Marcus Specht</em></p>
+<p>stub
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/03-stakeholders/02-focus-groups.Rmd</p>
+<!--chapter:end:chapters/03-stakeholders/02-focus-groups.Rmd-->
+</div>
+<div id="surveys" class="section level1 hasAnchor" number="6">
+<h1 class="hasAnchor"><span class="header-section-number">6</span> Surveys<a href="#surveys" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>TBA</em></p>
+<p>stub</p>
+<!--chapter:end:chapters/03-stakeholders/03-surveys.Rmd-->
+</div>
+<div id="group-concept-mapping" class="section level1 hasAnchor" number="7">
+<h1 class="hasAnchor"><span class="header-section-number">7</span> Group Concept Mapping<a href="#group-concept-mapping" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Christian Glahn</em></p>
+<blockquote>
+<p><strong>Abstract:</strong></p>
+<p><strong>Keywords:</strong></p>
+</blockquote>
+<p>stub</p>
+<!--chapter:end:chapters/03-stakeholders/04-gcm.Rmd-->
+</div>
+<div id="delphi-method" class="section level1 hasAnchor" number="8">
+<h1 class="hasAnchor"><span class="header-section-number">8</span> Delphi Method<a href="#delphi-method" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>TBA</em>
+stub</p>
+<!--chapter:end:chapters/03-stakeholders/05-Delphi-method.Rmd-->
+</div>
+<div id="part-formative-methods" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Formative Methods<a href="#part-formative-methods" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="agile-development-and-scrum" class="section level1 hasAnchor" number="9">
+<h1 class="hasAnchor"><span class="header-section-number">9</span> Agile Development and SCRUM<a href="#agile-development-and-scrum" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="prototyping" class="section level1 hasAnchor" number="10">
+<h1 class="hasAnchor"><span class="header-section-number">10</span> Prototyping<a href="#prototyping" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="focus-groups" class="section level1 hasAnchor" number="11">
+<h1 class="hasAnchor"><span class="header-section-number">11</span> <del>Focus Groups</del><a href="#focus-groups" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="task-performance-studies" class="section level1 hasAnchor" number="12">
+<h1 class="hasAnchor"><span class="header-section-number">12</span> Task performance studies<a href="#task-performance-studies" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/04-formative/00-index.Rmd-->
+</div>
+<div id="part-summative-methods" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Summative Methods<a href="#part-summative-methods" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="experiments" class="section level1 hasAnchor" number="13">
+<h1 class="hasAnchor"><span class="header-section-number">13</span> Experiments<a href="#experiments" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="quasi-experiments" class="section level1 hasAnchor" number="14">
+<h1 class="hasAnchor"><span class="header-section-number">14</span> Quasi Experiments<a href="#quasi-experiments" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="field-studies" class="section level1 hasAnchor" number="15">
+<h1 class="hasAnchor"><span class="header-section-number">15</span> Field Studies<a href="#field-studies" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="experience-sampling" class="section level1 hasAnchor" number="16">
+<h1 class="hasAnchor"><span class="header-section-number">16</span> Experience Sampling<a href="#experience-sampling" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/05-summative/00-index.Rmd-->
+</div>
+<div id="example-chapter" class="section level1 hasAnchor" number="17">
+<h1 class="hasAnchor"><span class="header-section-number">17</span> Example chapter<a href="#example-chapter" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Placeholder</p>
+<!--chapter:end:chapters/06-chapter/00-index.Rmd-->
+</div>
+<div id="part-exercises" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART*) Exercises<a href="#part-exercises" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="example-one" class="section level1 hasAnchor" number="18">
+<h1 class="hasAnchor"><span class="header-section-number">18</span> Example one<a href="#example-one" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Placeholder</p>
+<!--chapter:end:chapters/07-exercise/00-index.Rmd-->
+</div>
+<div id="authors" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">Authors<a href="#authors" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/98-authors/00-index.rmd-->
+<div id="hendrick-drachsler" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Hendrick Drachsler<a href="#hendrick-drachsler" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/drachsler_hendrick.Rmd-->
+</div>
+<div id="christian-glahn" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Christian Glahn<a href="#christian-glahn" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/glahn_christian.Rmd-->
+</div>
+<div id="marco-kalz" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Marco Kalz<a href="#marco-kalz" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/kalz_marco.Rmd-->
+</div>
+<div id="gillian-saunders" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Gillian Saunders<a href="#gillian-saunders" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/saunders_gillian.Rmd-->
+</div>
+<div id="marcus-specht" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Marcus Specht<a href="#marcus-specht" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/specht_marcus.Rmd-->
+</div>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/99-references/00-index.Rmd-->
+<!--chapter:end:rm4le.Rmd-->
+<div id="intro" class="section level2 hasAnchor" number="18.1">
+<h2 class="hasAnchor"><span class="header-section-number">18.1</span> Why this book ?<a href="#intro" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There are plenty of good books on research methods for different disciplines, so why another one? This is related to several challenges I realised when developing a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplfied introduction to research methods on which particpants could build but also finish the course with a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive overview. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.</p>
+<div class="DiagrammeR html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-b49aaaf7903e798c2b48" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-b49aaaf7903e798c2b48">{"x":{"diagram":"\n  graph LR\n    A-->B\n    A-->C\n    C-->E\n    B-->D\n    C-->D\n    D-->F\n    E-->F\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="research-methods-for-whom-1" class="section level2 hasAnchor" number="18.2">
+<h2 class="hasAnchor"><span class="header-section-number">18.2</span> Research methods for whom?<a href="#research-methods-for-whom-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This book is for students of every age and background which enjoy learning about these topics. One scenario is bachelor and master students which have to do a research project in there studies. Some of the foundations chapters should give them a primer for the structure and decisions to make to come to a study design. On the other hand this is also for multi year research settings as in a PhD project or other projects.</p>
+<p>The focus of this book is on research methods that are used to understand human-computer systems mostly in the field of learning and teaching with technology. Of course the methods are helpful, useful and can be applied in other domains but this is the main focus.</p>
+<!--chapter:end:chapters/00-intro/01-why.rmd-->
+</div>
+</div>
+<div id="part-making-a-plan-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Making a plan<a href="#part-making-a-plan-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="a-simplified-research-model-and-its-principles-1" class="section level2 hasAnchor" number="18.3">
+<h2 class="hasAnchor"><span class="header-section-number">18.3</span> A simplified research model and it’s principles<a href="#a-simplified-research-model-and-its-principles-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Some might reject this book due to the lack of a decision on one overarching methodology and approach, nevertheless we give pointers to different research &amp; development approaches in the foundation chapter this book is not taking favour of one research approach. It tries to highlight the principles that are important when doing research on technologies, learning and teaching. These include understand the legacy, engaging with users, fast prototyping and agile development, product iterations and context adaptions, …</p>
+<!--chapter:end:chapters/00-planning/00-index.rmd-->
+</div>
+</div>
+<div id="part-foundations-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Foundations<a href="#part-foundations-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.</p>
+<div id="scales-and-data-levels-1" class="section level2 hasAnchor" number="18.4">
+<h2 class="hasAnchor"><span class="header-section-number">18.4</span> Scales and data levels<a href="#scales-and-data-levels-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="variables-and-conceptual-models-1" class="section level2 hasAnchor" number="18.5">
+<h2 class="hasAnchor"><span class="header-section-number">18.5</span> Variables and conceptual models<a href="#variables-and-conceptual-models-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>differentiate theory, theoretical model, and framework</p>
+<!--chapter:end:chapters/01-foundations/00-index.Rmd-->
+<p>Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.</p>
+<blockquote>
+<p><strong>Abstract:</strong> This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.</p>
+<p><strong>Keywords:</strong> TEL, technology, technological determinism, social determinism, middle-ground</p>
+</blockquote>
+<p>There has been an ongoing critique regarding the role of educational theory for research on educational technology (Ravenscroft, 2001). On the other hand, the role of technology itself has been seldom discussed in the field of technology-enhanced learning. This chapter discusses the different perspectives on the role of technology in technology-enhanced learning research. To position the field of technology-enhanced learning in relation to earlier research fields, it is useful to discuss related definitions. In an early definition of educational technology, the AECT Task Force on Definition and Terminology points out that educational technology should not be confused with the application of technology in education. According to the AECT (1977) the field of educational technology defines technology in a broad sense as the application of an “integrated process involving people, procedures, ideas, devices, and organization, for analyzing problems and devising, implementing, evaluating and managing solutions to those problems, in all aspects of human learning”. This definition goes beyond technology in the sense of technics and includes a variety of methods and approaches which do not involve technological artifacts.</p>
+<p>Later, Reiser (2001) proposes the term instructional design and technology to avoid confusing it with the term instructional media which he interprets as the application of “computers, videos, CD-Roms, overhead and slide-projectors and other types of hardware and software”. Both fields have explicitly given themselves a broader definition than the use of the development and integration of technological artifacts in an educational context. The domain of technology-enhanced learning is explicitly focusing on a narrower definition. We define technology-enhanced learning research as a systematic approach to design, apply and analyse effects of digital technology with respect to increasing effectiveness, efficiency, enjoyability/attractiveness, accessibility of learning. In this definition, the design or application of digital technology into an educational context is central to the field. TEL does not focus on all types of technologies but explicitly focuses on digital technology. This definition has important implications for the identity of the field as a whole since the design of digital artifacts requires expertise from computer science while the application and evaluation requires expertise from educational science and psychology. Based on this combination of competences and expertise, the field of technology-enhanced learning has been from the start regarded as an interdisciplinary discipline (Kalz &amp; Specht, 2014). Nonetheless, the role of technology itself has not been sufficiently critically reflected in the field and there are implicit patterns of argumentation and assumptions about the role of technology which we would like to discuss in the next section.</p>
+<p>Different roles of technology</p>
+<p>One of the most prominent discussion in the field relates to a basic assumption about which discipline should lead in the development of interventions and solutions. The slogan “pedagogy first, technology second” is an often-repeated statement that many people from the educational field communicate based on the assumption that the only real innovation in teaching and learning should come from the pedagogy formulating requirements which the technical developers need to realize. On the other hand, there is a pervasive statement that a new technology is going to revolutionize education assuming that the introduction of a new technology will lead directly to better teaching or learning.
+What is common to both positions is the implicit deterministic stance that is used as a starting point. Chandler (1995) differentiates between two types of determinisms. On the one hand, there is a technological determinism, on the other hand there is a social determinism. Technological determinism is connected to a number of assumptions about the character and effects of technology.</p>
+<p>Often, reductionist and mechanistic models are used which are assuming a simple cause-and-effect relationship to explain phenomena. Instead of taking into account individual, environmental or contextual variables, effects of technology are generalized to such a high level that technology is regarded as the source of progress or innovation. As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”.</p>
+<p>As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”. In times of pervasive computerization of our society and environments and the connection and dependency of technologies on each other it is nearly impossible to generalize effects from one technology to the other. In addition, authors like Berry (2014) point to the ongoing softwarization of our society leading to a “post-digital world in which the digital has become completely bound up with and constitutive of everyday life and the so-called digital economy”. This has led also to a higher level of personalization and adaptation options for end-users taking the discussion regarding the reification of technology on another level because even the same digital technology can work differently for two users. Example of this are prominent search engines which are showing different results for search terms depending on the user profile or mobile apps which follow the notification preferences of the user rather the pre-designed notification of an app developed for learning.<br />
+Another aspect of this discussion is the assumption that machines can be divided into single parts and they offer a regular behavior. This assumption cannot be transferred to the use of technology in a social context because “the use of complex and interacting technologies may have implications which are not always entirely intended or predicted. And the complex fabric of social reality cannot be neatly analyzed into component factors” (Chandler, 1995).</p>
+<p>The neutrality of technology also known as the instrumental view of technology usage can be also seen as a deterministic perspective. Based on this perspective, technology itself is regarded as a kind of transport medium that does not add any affordances or qualities to the learning process. A very famous example from the educational technology domain is the debate between Richard Clark and Robert Kozma (see Clark 1994, Kozma, 1995) about the influence of “media” on learning. Clark (1994) supports the perspective of technological neutrality and states that technology itself has no influence on learning. In opposition, Kozma (1995) answered to this statement and argued that media/technologies have in itself traits that can have effects on learning.</p>
+<p>Another dimension of the technological determinism standpoint is the assumption that technology is acting autonomously. Chandler (1995) frames this perspective as follows: “Rather than as a product of society and an integral part of it, technology is presented as an independent, self-controlling, self-determining, self-generating, self-propelling, self-perpetuating and self-expanding force”. A special flavor of this perspective is the so-called anthropomorphism which projects unique human traits (purposeful behavior) on technology. This position ignores the fact that technology is made by humans and that all functionalities embedded into technology are in the end also designed by man. In recent times, where machine learning and artificial intelligence is also applied in the context of technology-enhanced learning, the discussion on autonomy of technology is getting a completely new perspective. To take a recent example, artificial neural networks are applied to solve different kind of problems (learning rules of games, pattern and image recognition etc.), but their internal function is working like a black box that is outside of the capabilities of humans.</p>
+<p>An often-repeated stance also in an educational context is the paradigm of the unstoppable technological progress also called the technological imperative. This perspective assumes that technology will inevitably lead to changes in society, education etc. and that this progress is unstoppable. This perspective and assumption of change is in that sense problematic as societies can always consciously accept or reject technologies. Especially ethical dimensions of the application of specific technologies can produce a public discourse that ends up in a decision not to adopt a technological progress. Several examples of this come from the medical field like stem cell research or the use of new test approaches for disability screening of babies. In technology-enhanced learning this discourse between potential application and realized application of technology is especially visible in the field of learning analytics (Greller &amp; Drachsler, 2014) in which the public discourse is inevitably connected to the discussion about data protection and conflicts between individual integrity and the potential benefit for learning.
+In the same line of thinking, Pannabecker (1991) has criticized that we regularly talk about the impact of technology. He poses that this metaphor “implies that technology is a discrete force with a discernible direction and influence”.</p>
+<p>The other extreme position that is also very famous especially in educational domains is to completely deny any effects of technology resulting into the other extreme deterministic perspective which we call here again following Chandler (1995) social determinism. Social determinism is assuming that social factors are shaping society and that technology itself is not having any natural affordances that also influence the societal development.</p>
+<p>Establishing a middle ground for technology-enhanced learning research
+After having introduced the different perspectives and deterministic stances the question arises if there is also a middle-ground position that is able to overcome the extreme positions.</p>
+</div>
+<div id="definitions" class="section level2 hasAnchor" number="18.6">
+<h2 class="hasAnchor"><span class="header-section-number">18.6</span> Definitions and terminology<a href="#definitions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Technology enhanced learning is about exploring the:
+Learning potential (goal) and usability (goal) of (design of/affordances of) digital technology x) for person (actor(s) a,b,c) in context(s) as studied by the educational system designer/researcher</p>
+<p>Defining Technology
+Defining Enhancement
+Defining Learning</p>
+<p>Technology enhanced learning research is a systematic approach to design and assess digital technology with respect to increasing:
+Effectiveness
+Efficiency
+Enjoyability/Attractiveness
+Accessibility
+Usefulness enhancements (=usability and utility) (see also SAMR framework)</p>
+<p>Is it method, techniques or methodologies? See next part
+See external glossary</p>
+<p>Understanding the difference between methods and methodology is of paramount importance. Method is simply a research tool, a component of research – say for example, a qualitative method such as interviews. Methodology is the justification for using a particular research method.</p>
+</div>
+<div id="frameworks-theory-and-models-1" class="section level2 hasAnchor" number="18.7">
+<h2 class="hasAnchor"><span class="header-section-number">18.7</span> Frameworks, Theory and Models<a href="#frameworks-theory-and-models-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>2.2 Framework—Theory–Model: Distinctions among these three analytical tools are
+especially important for analysts to remember.
+2.2.1 Framework identifies, categorizes, and organizes those factors deemed most
+relevant to understanding some phenomenon.
+2.2.2 Theory posits general causal relationships among some subsets of these
+variables or categories of factors, designating some types of factors as
+especially important and others as less critical for explanatory purposes.
+2.2.3 Model specifies the specific functional relationships among particular variables
+or indicators that are hypothesized to operate in some well-defined
+set of conditions.</p>
+<p>See: An Introduction to IAD and the Language of the Ostrom
+Workshop: A Simple Guide to a Complex Frameworkpsj_401 169..184
+Michael D. McGinnis</p>
+</div>
+<div id="process" class="section level2 hasAnchor" number="18.8">
+<h2 class="hasAnchor"><span class="header-section-number">18.8</span> The Research Process<a href="#process" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="strategy" class="section level2 hasAnchor" number="18.9">
+<h2 class="hasAnchor"><span class="header-section-number">18.9</span> Choosing a strategy<a href="#strategy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Abstract: The chapter will introduce the main dimensions of TEL research, which are theoretical assumptions and models, technology development and innovation methods, contextual embedding, daily practice and pedagogy, as also empirical evidence generated from formative and summative evaluations. Based on the main objectives of a research project different examples for TEL research are described and classified. Objectives in TEL research range from targeting for the innovation of new technologies based on theoretical assumptions, implementing technology in daily practice, generating research evidence for enhancing theoretical underpinnings or embedding technology in practices to enhance learning. To ensure sound research quality and outcomes TEL researchers on the one hand need to prioritize objectives and on the other hand need to be aware of the relations between the different dimensions. The chapter introduces guiding questions for the four dimensions of TEL research projects and how these should be used to balance research and create high quality research outcomes. The examples given also illustrate different TEL research projects and how these have combined different methods in a process which links and considers all four dimensions. Strategic guidance for the TEL researcher is implemented with the TheTePrEv Framework which helps to identify blind spots and missing components for methodological choices in research projects.</p>
+</div>
+<div id="interdisciplinary-work-1" class="section level2 hasAnchor" number="18.10">
+<h2 class="hasAnchor"><span class="header-section-number">18.10</span> Interdisciplinary work<a href="#interdisciplinary-work-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In general TEL is an interdisciplinary field bringing together different research backgrounds as also different research objectives. While engineering sciences mostly have the objective to create and design artefacts, the social and behavioural sciences more target humans interaction with these artefacts and the effects therefrom. In that sense TEL projects bring together these objectives on a high level, in a first step you therefore have to answer different questions:
+What kind of technology do you want to use? What are the main characteristics of the technology you want to use and how do you specify the main activity that users do with your software or artefact?</p>
+<p>What are the enhancements you expect from the use of such technology and what are your expected outcomes? How do you plan to measure these outcomes?</p>
+<p>What is the main learning you would like to see in the educational context? How you you describe learning in that context? What problems and barriers are there in the current educational implementation and setting? Are the problems in the environmental settings or are there problems of users for learning from the available support?</p>
+<!--chapter:end:chapters/01-foundations/01-technology-in-tel.rmd-->
+</div>
+</div>
+<div id="part-understanding-the-legacy-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Understanding the legacy<a href="#part-understanding-the-legacy-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Here is a review of existing methods.</p>
+<div id="literature-review-1" class="section level2 hasAnchor" number="18.11">
+<h2 class="hasAnchor"><span class="header-section-number">18.11</span> Literature Review<a href="#literature-review-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="meta-analysis-1" class="section level2 hasAnchor" number="18.12">
+<h2 class="hasAnchor"><span class="header-section-number">18.12</span> Meta-Analysis<a href="#meta-analysis-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/02-theLegacy/00-index.Rmd-->
+</div>
+</div>
+<div id="part-engaging-with-users-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Engaging with users<a href="#part-engaging-with-users-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="context-analysis-1" class="section level1 hasAnchor" number="19">
+<h1 class="hasAnchor"><span class="header-section-number">19</span> Context Analysis<a href="#context-analysis-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="requirements-engineering-1" class="section level1 hasAnchor" number="20">
+<h1 class="hasAnchor"><span class="header-section-number">20</span> Requirements Engineering<a href="#requirements-engineering-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="participatory-design-1" class="section level1 hasAnchor" number="21">
+<h1 class="hasAnchor"><span class="header-section-number">21</span> Participatory Design<a href="#participatory-design-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/03-theNeed/00-index.Rmd-->
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:chapters/00-overview/01-subsection.rmd
+## Different Strategies in research</p>
+<div class="DiagrammeR html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4718792ddc6b9060eb63" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-4718792ddc6b9060eb63">{"x":{"diagram":"\n  graph LR\n    A(from theory)-->D\n    B(from technology)-->D\n    C(from practice)-->D\n    D(the research question)-->E(where to start)\n    E-->F(what data to be collected)\n"},"evals":[],"jsHooks":[]}</script>
+<p>=======
+# Focus Groups
+<em>Gitte Saunders</em>, <em>Marcus Specht</em></p>
+<p>stub
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/03-stakeholders/02-focus-groups.Rmd</p>
+<!--chapter:end:chapters/03-theNeed/02-focus-groups.Rmd-->
+</div>
+<div id="surveys-1" class="section level1 hasAnchor" number="22">
+<h1 class="hasAnchor"><span class="header-section-number">22</span> Surveys<a href="#surveys-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>TBA</em></p>
+<p>stub</p>
+<!--chapter:end:chapters/03-theNeed/03-surveys.Rmd-->
+</div>
+<div id="group-concept-mapping-1" class="section level1 hasAnchor" number="23">
+<h1 class="hasAnchor"><span class="header-section-number">23</span> Group Concept Mapping<a href="#group-concept-mapping-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Christian Glahn</em></p>
+<blockquote>
+<p><strong>Abstract:</strong></p>
+<p><strong>Keywords:</strong></p>
+</blockquote>
+<p>stub</p>
+<!--chapter:end:chapters/03-theNeed/04-gcm.Rmd-->
+</div>
+<div id="delphi-method-1" class="section level1 hasAnchor" number="24">
+<h1 class="hasAnchor"><span class="header-section-number">24</span> Delphi Method<a href="#delphi-method-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>TBA</em>
+stub</p>
+<!--chapter:end:chapters/03-theNeed/05-Delphi-method.Rmd-->
+</div>
+<div id="part-formative-methods-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Formative Methods<a href="#part-formative-methods-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="agile-development-and-scrum-1" class="section level1 hasAnchor" number="25">
+<h1 class="hasAnchor"><span class="header-section-number">25</span> Agile Development and SCRUM<a href="#agile-development-and-scrum-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="prototyping-1" class="section level1 hasAnchor" number="26">
+<h1 class="hasAnchor"><span class="header-section-number">26</span> Prototyping<a href="#prototyping-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="focus-groups-1" class="section level1 hasAnchor" number="27">
+<h1 class="hasAnchor"><span class="header-section-number">27</span> <del>Focus Groups</del><a href="#focus-groups-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="task-performance-studies-1" class="section level1 hasAnchor" number="28">
+<h1 class="hasAnchor"><span class="header-section-number">28</span> Task performance studies<a href="#task-performance-studies-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/04-designdevelop/00-index.Rmd-->
+</div>
+<div id="part-summative-methods-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART) Summative Methods<a href="#part-summative-methods-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="experiments-1" class="section level1 hasAnchor" number="29">
+<h1 class="hasAnchor"><span class="header-section-number">29</span> Experiments<a href="#experiments-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="quasi-experiments-1" class="section level1 hasAnchor" number="30">
+<h1 class="hasAnchor"><span class="header-section-number">30</span> Quasi Experiments<a href="#quasi-experiments-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="field-studies-1" class="section level1 hasAnchor" number="31">
+<h1 class="hasAnchor"><span class="header-section-number">31</span> Field Studies<a href="#field-studies-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="experience-sampling-1" class="section level1 hasAnchor" number="32">
+<h1 class="hasAnchor"><span class="header-section-number">32</span> Experience Sampling<a href="#experience-sampling-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/05-theEffects/00-index.Rmd-->
+</div>
+<div id="example-chapter-1" class="section level1 hasAnchor" number="33">
+<h1 class="hasAnchor"><span class="header-section-number">33</span> Example chapter<a href="#example-chapter-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This text is an Example for our Head editor.</p>
+<p>On the role of technology in technology-enhanced learning research
+Marco Kalz</p>
+<p>Abstract
+This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.</p>
+<p>Keywords: TEL, technology, technological determinism, social determinism, middle-ground</p>
+<p>Introduction
+There has been an ongoing critique regarding the role of educational theory for research on educational technology (Ravenscroft, 2001). On the other hand, the role of technology itself has been seldom discussed in the field of technology-enhanced learning. This chapter discusses the different perspectives on the role of technology in technology-enhanced learning research. To position the field of technology-enhanced learning in relation to earlier research fields, it is useful to discuss related definitions. In an early definition of educational technology, the AECT Task Force on Definition and Terminology points out that educational technology should not be confused with the application of technology in education. According to the AECT (1977) the field of educational technology defines technology in a broad sense as the application of an “integrated process involving people, procedures, ideas, devices, and organization, for analyzing problems and devising, implementing, evaluating and managing solutions to those problems, in all aspects of human learning”. This definition goes beyond technology in the sense of technics and includes a variety of methods and approaches which do not involve technological artifacts.</p>
+<p>Later, Reiser (2001) proposes the term instructional design and technology to avoid confusing it with the term instructional media which he interprets as the application of “computers, videos, CD-Roms, overhead and slide-projectors and other types of hardware and software”. Both fields have explicitly given themselves a broader definition than the use of the development and integration of technological artifacts in an educational context. The domain of technology-enhanced learning is explicitly focusing on a narrower definition. We define technology-enhanced learning research as a systematic approach to design, apply and analyse effects of digital technology with respect to increasing effectiveness, efficiency, enjoyability/attractiveness, accessibility of learning. In this definition, the design or application of digital technology into an educational context is central to the field. TEL does not focus on all types of technologies but explicitly focuses on digital technology. This definition has important implications for the identity of the field as a whole since the design of digital artifacts requires expertise from computer science while the application and evaluation requires expertise from educational science and psychology. Based on this combination of competences and expertise, the field of technology-enhanced learning has been from the start regarded as an interdisciplinary discipline (Kalz &amp; Specht, 2014). Nonetheless, the role of technology itself has not been sufficiently critically reflected in the field and there are implicit patterns of argumentation and assumptions about the role of technology which we would like to discuss in the next section.</p>
+<p>Different roles of technology
+One of the most prominent discussion in the field relates to a basic assumption about which discipline should lead in the development of interventions and solutions. The slogan “pedagogy first, technology second” is an often-repeated statement that many people from the educational field communicate based on the assumption that the only real innovation in teaching and learning should come from the pedagogy formulating requirements which the technical developers need to realize. On the other hand, there is a pervasive statement that a new technology is going to revolutionize education assuming that the introduction of a new technology will lead directly to better teaching or learning.
+What is common to both positions is the implicit deterministic stance that is used as a starting point. Chandler (1995) differentiates between two types of determinisms. On the one hand, there is a technological determinism, on the other hand there is a social determinism. Technological determinism is connected to a number of assumptions about the character and effects of technology.</p>
+<p>Often, reductionist and mechanistic models are used which are assuming a simple cause-and-effect relationship to explain phenomena. Instead of taking into account individual, environmental or contextual variables, effects of technology are generalized to such a high level that technology is regarded as the source of progress or innovation. As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”.</p>
+<p>As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”. In times of pervasive computerization of our society and environments and the connection and dependency of technologies on each other it is nearly impossible to generalize effects from one technology to the other. In addition, authors like Berry (2014) point to the ongoing softwarization of our society leading to a “post-digital world in which the digital has become completely bound up with and constitutive of everyday life and the so-called digital economy”. This has led also to a higher level of personalization and adaptation options for end-users taking the discussion regarding the reification of technology on another level because even the same digital technology can work differently for two users. Example of this are prominent search engines which are showing different results for search terms depending on the user profile or mobile apps which follow the notification preferences of the user rather the pre-designed notification of an app developed for learning.<br />
+Another aspect of this discussion is the assumption that machines can be divided into single parts and they offer a regular behavior. This assumption cannot be transferred to the use of technology in a social context because “the use of complex and interacting technologies may have implications which are not always entirely intended or predicted. And the complex fabric of social reality cannot be neatly analyzed into component factors” (Chandler, 1995).</p>
+<p>The neutrality of technology also known as the instrumental view of technology usage can be also seen as a deterministic perspective. Based on this perspective, technology itself is regarded as a kind of transport medium that does not add any affordances or qualities to the learning process. A very famous example from the educational technology domain is the debate between Richard Clark and Robert Kozma (see Clark 1994, Kozma, 1995) about the influence of “media” on learning. Clark (1994) supports the perspective of technological neutrality and states that technology itself has no influence on learning. In opposition, Kozma (1995) answered to this statement and argued that media/technologies have in itself traits that can have effects on learning.</p>
+<p>Another dimension of the technological determinism standpoint is the assumption that technology is acting autonomously. Chandler (1995) frames this perspective as follows: “Rather than as a product of society and an integral part of it, technology is presented as an independent, self-controlling, self-determining, self-generating, self-propelling, self-perpetuating and self-expanding force”. A special flavor of this perspective is the so-called anthropomorphism which projects unique human traits (purposeful behavior) on technology. This position ignores the fact that technology is made by humans and that all functionalities embedded into technology are in the end also designed by man. In recent times, where machine learning and artificial intelligence is also applied in the context of technology-enhanced learning, the discussion on autonomy of technology is getting a completely new perspective. To take a recent example, artificial neural networks are applied to solve different kind of problems (learning rules of games, pattern and image recognition etc.), but their internal function is working like a black box that is outside of the capabilities of humans.</p>
+<p>An often-repeated stance also in an educational context is the paradigm of the unstoppable technological progress also called the technological imperative. This perspective assumes that technology will inevitably lead to changes in society, education etc. and that this progress is unstoppable. This perspective and assumption of change is in that sense problematic as societies can always consciously accept or reject technologies. Especially ethical dimensions of the application of specific technologies can produce a public discourse that ends up in a decision not to adopt a technological progress. Several examples of this come from the medical field like stem cell research or the use of new test approaches for disability screening of babies. In technology-enhanced learning this discourse between potential application and realized application of technology is especially visible in the field of learning analytics (Greller &amp; Drachsler, 2014) in which the public discourse is inevitably connected to the discussion about data protection and conflicts between individual integrity and the potential benefit for learning.
+In the same line of thinking, Pannabecker (1991) has criticized that we regularly talk about the impact of technology. He poses that this metaphor “implies that technology is a discrete force with a discernible direction and influence”.</p>
+<p>The other extreme position that is also very famous especially in educational domains is to completely deny any effects of technology resulting into the other extreme deterministic perspective which we call here again following Chandler (1995) social determinism. Social determinism is assuming that social factors are shaping society and that technology itself is not having any natural affordances that also influence the societal development.</p>
+<p>Establishing a middle ground for technology-enhanced learning research
+After having introduced the different perspectives and deterministic stances the question arises if there is also a middle-ground position that is able to overcome the extreme positions.</p>
+<!--chapter:end:chapters/06-theLoop/00-index.Rmd-->
+</div>
+<div id="part-exercises-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">(PART*) Exercises<a href="#part-exercises-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Here you can see an Shiny-exercise embedded.</p>
+</div>
+<div id="example-one-1" class="section level1 hasAnchor" number="34">
+<h1 class="hasAnchor"><span class="header-section-number">34</span> Example one<a href="#example-one-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+</div>
+<div id="example-two" class="section level1 hasAnchor" number="35">
+<h1 class="hasAnchor"><span class="header-section-number">35</span> Example two<a href="#example-two" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_app</span>(<span class="st">&quot;https://mkalz.shinyapps.io/Data2TEachModulCVariablenzuordnung/&quot;</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">height =</span> <span class="st">&quot;800px&quot;</span>)</span></code></pre></div>
+<iframe src="https://mkalz.shinyapps.io/Data2TEachModulCVariablenzuordnung/?showcase=0" width="672" height="800px" data-external="1">
+</iframe>
+<p>you can label chapter and section titles using <code>{#label}</code> after them, e.g., we can reference Chapter @ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter @ref(methods).</p>
+<p>Figures and tables with captions will be placed in <code>figure</code> and <code>table</code> environments, respectively.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">4</span>, <span class="dv">4</span>, .<span class="dv">1</span>, .<span class="dv">1</span>))</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(pressure, <span class="at">type =</span> <span class="st">&#39;b&#39;</span>, <span class="at">pch =</span> <span class="dv">19</span>)</span></code></pre></div>
+<div class="figure" style="text-align: center">
+<img src="_main_files/figure-html/nice-fig-1.png" alt="Here is a nice figure!" width="80%" />
+<p class="caption">
+(#fig:nice-fig)Here is a nice figure!
+</p>
+</div>
+<p>This is also a reference to <span class="citation">(<a href="#ref-kobsa2001personalised" role="doc-biblioref">Kobsa, Koenemann, and Pohl 2001</a>)</span> this is important.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Loop to print numbers from 1 to 10</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>) {</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(i)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<pre><code>## [1] 1
+## [1] 2
+## [1] 3
+## [1] 4
+## [1] 5
+## [1] 6
+## [1] 7
+## [1] 8
+## [1] 9
+## [1] 10</code></pre>
+<p>Reference a figure by its code chunk label with the <code>fig:</code> prefix, e.g., see Figure @ref(fig:nice-fig). Similarly, you can reference tables generated from <code>knitr::kable()</code>, e.g., see Table @ref(tab:nice-tab).</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(iris, <span class="dv">20</span>), <span class="at">caption =</span> <span class="st">&#39;Here is a nice table!&#39;</span>,</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">booktabs =</span> <span class="cn">TRUE</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<table>
+<caption>(#tab:nice-tab)Here is a nice table!</caption>
+<thead>
+<tr class="header">
+<th align="right">Sepal.Length</th>
+<th align="right">Sepal.Width</th>
+<th align="right">Petal.Length</th>
+<th align="right">Petal.Width</th>
+<th align="left">Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.7</td>
+<td align="right">3.2</td>
+<td align="right">1.3</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.6</td>
+<td align="right">3.1</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.0</td>
+<td align="right">3.6</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.4</td>
+<td align="right">3.9</td>
+<td align="right">1.7</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.6</td>
+<td align="right">3.4</td>
+<td align="right">1.4</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.0</td>
+<td align="right">3.4</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.4</td>
+<td align="right">2.9</td>
+<td align="right">1.4</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.9</td>
+<td align="right">3.1</td>
+<td align="right">1.5</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.4</td>
+<td align="right">3.7</td>
+<td align="right">1.5</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.8</td>
+<td align="right">3.4</td>
+<td align="right">1.6</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">4.8</td>
+<td align="right">3.0</td>
+<td align="right">1.4</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">4.3</td>
+<td align="right">3.0</td>
+<td align="right">1.1</td>
+<td align="right">0.1</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.8</td>
+<td align="right">4.0</td>
+<td align="right">1.2</td>
+<td align="right">0.2</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.7</td>
+<td align="right">4.4</td>
+<td align="right">1.5</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.4</td>
+<td align="right">3.9</td>
+<td align="right">1.3</td>
+<td align="right">0.4</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.1</td>
+<td align="right">3.5</td>
+<td align="right">1.4</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="odd">
+<td align="right">5.7</td>
+<td align="right">3.8</td>
+<td align="right">1.7</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+<tr class="even">
+<td align="right">5.1</td>
+<td align="right">3.8</td>
+<td align="right">1.5</td>
+<td align="right">0.3</td>
+<td align="left">setosa</td>
+</tr>
+</tbody>
+</table>
+<p>You can write citations, too. For example, we are using the <strong>bookdown</strong> package <span class="citation">(<a href="#ref-R-bookdown" role="doc-biblioref">Xie 2023</a>)</span> in this sample book, which was built on top of R Markdown and <strong>knitr</strong> <span class="citation">(<a href="#ref-xie2015" role="doc-biblioref">Xie 2015</a>)</span>.</p>
+<!--chapter:end:chapters/07-exercise/00-index.Rmd-->
+</div>
+<div id="authors-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">Authors<a href="#authors-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/98-authors/00-index.rmd-->
+<div id="hendrick-drachsler-1" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Hendrick Drachsler<a href="#hendrick-drachsler-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/drachsler_hendrick.Rmd-->
+</div>
+<div id="christian-glahn-1" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Christian Glahn<a href="#christian-glahn-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/glahn_christian.Rmd-->
+</div>
+<div id="marco-kalz-1" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Marco Kalz<a href="#marco-kalz-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/kalz_marco.Rmd-->
+</div>
+<div id="gillian-saunders-1" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Gillian Saunders<a href="#gillian-saunders-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/saunders_gillian.Rmd-->
+</div>
+<div id="marcus-specht-1" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Marcus Specht<a href="#marcus-specht-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<!--chapter:end:chapters/98-authors/specht_marcus.Rmd-->
+</div>
+</div>
+<div id="references-1" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!--chapter:end:chapters/99-references/00-index.Rmd-->
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-kobsa2001personalised" class="csl-entry">
+Kobsa, Alfred, Jürgen Koenemann, and Wolfgang Pohl. 2001. <span>“Personalised Hypermedia Presentation Techniques for Improving Online Customer Relationships.”</span> <em>The Knowledge Engineering Review</em> 16 (2): 111–55.
+</div>
+<div id="ref-xie2015" class="csl-entry">
+Xie, Yihui. 2015. <em>Dynamic Documents with <span>R</span> and Knitr</em>. 2nd ed. Boca Raton, Florida: Chapman; Hall/CRC. <a href="http://yihui.name/knitr/">http://yihui.name/knitr/</a>.
+</div>
+<div id="ref-R-bookdown" class="csl-entry">
+———. 2023. <em>Bookdown: Authoring Books and Technical Documents with r Markdown</em>. <a href="https://CRAN.R-project.org/package=bookdown">https://CRAN.R-project.org/package=bookdown</a>.
+</div>
+</div>
+</div>
+<!--bookdown:body:end-->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<!--bookdown:link_prev-->
+<!--bookdown:link_next-->
+    </div>
+  </div>
+<!--bookdown:config-->
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,701 @@
+---
+title: "Research Methods for Learning Engineering"
+author: "Specht, M., Saunders, G., Drachsler, H., Kalz, M., Glahn, C."
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: 
+  - book.bib
+  - packages.bib
+biblio-style: apalike
+link-citations: yes
+github-repo: https://github.com/marcuspecht/RM4LE
+description: "This is an edited open content book research methods supporting educational innovation and learing engineering."
+---
+
+Prerequisites for contribution
+
+This is a *sample* book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+
+The **bookdown** package can be installed from CRAN or Github:
+
+```{r eval=FALSE}
+install.packages("bookdown")
+# or the development version
+# devtools::install_github("rstudio/bookdown")
+```
+
+Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
+
+To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+<!--chapter:end:index.Rmd-->
+
+---
+title: "Research Methods for Learning Engineering"
+author: "Specht, M., Saunders, G., Drachsler, H., Kalz, M., Glahn, C."
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: 
+  - book.bib
+  - packages.bib
+biblio-style: apalike
+link-citations: yes
+github-repo: https://github.com/marcuspecht/RM4LE
+description: "This is an edited open content book research methods supporting educational innovation and learing engineering."
+---
+
+
+
+<!--chapter:end:index.Rmd-->
+
+---
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+## Why this book ? {#intro}
+
+There are plenty of good books on research methods for different disciplines, so why another one? This is related to several challenges I realised when developing a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplfied introduction to research methods on which particpants could build but also finish the course with a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive  overview. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.
+
+```{r eval=TRUE, echo=FALSE}
+library("DiagrammeR")
+DiagrammeR("
+  graph LR
+    A-->B
+    A-->C
+    C-->E
+    B-->D
+    C-->D
+    D-->F
+    E-->F
+")
+```
+
+## Research methods for whom?
+
+This book is for students of every age and background which enjoy learning about these topics. One scenario is bachelor and master students which have to do a research project in there studies. Some of the foundations chapters should give them a primer for the structure and decisions to make to come to a study design. On the other hand this is also for multi year research settings as in a PhD project or other projects.
+
+The focus of this book is on research methods that are used to understand human-computer systems mostly in the field of learning and teaching with technology. Of course the methods are helpful, useful and can be applied in other domains but this is the main focus.
+
+
+<!--chapter:end:chapters/00-intro/01-why.rmd-->
+
+---
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+
+# (PART) Making a plan {-}
+
+
+## A simplified research model and it's principles
+
+Some might reject this book due to the lack of a decision on one overarching methodology and approach, nevertheless we give pointers to different research & development approaches in the foundation chapter this book is not taking favour of one research approach. It tries to highlight the principles that are important when doing research on technologies, learning and teaching. These include understand the legacy, engaging with users, fast prototyping and agile development, product iterations and context adaptions, ...
+
+<!--chapter:end:chapters/00-planning/00-index.rmd-->
+
+# (PART) Foundations {-}
+
+Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
+
+
+## Scales and data levels
+
+## Variables and conceptual models
+
+differentiate theory, theoretical model, and framework
+
+
+
+
+<!--chapter:end:chapters/01-foundations/00-index.Rmd-->
+
+
+
+## Definitions and terminology {#definitions}
+## Frameworks, Theory and Models
+## The Research Process {#process}
+## Choosing a strategy {#strategy}
+## Interdisciplinary work
+
+<!--chapter:end:chapters/01-foundations/01-technology-in-tel.rmd-->
+
+# (PART) Understanding the legacy {-}
+
+Here is a review of existing methods.
+
+# Literature Review
+
+# Meta-Analysis
+
+
+
+
+
+<!--chapter:end:chapters/02-legacy/00-index.Rmd-->
+
+# (PART) Engaging with users {-}
+
+# Context Analysis
+
+# Requirements Engineering
+
+# Participatory Design
+
+
+
+
+<!--chapter:end:chapters/03-stakeholders/00-index.Rmd-->
+
+---
+author: TBA, Marcus Specht
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+<<<<<<< HEAD:chapters/00-overview/01-subsection.rmd
+## Different Strategies in research
+
+
+```{r eval=TRUE, echo=FALSE}
+library("DiagrammeR")
+DiagrammeR("
+  graph LR
+    A(from theory)-->D
+    B(from technology)-->D
+    C(from practice)-->D
+    D(the research question)-->E(where to start)
+    E-->F(what data to be collected)
+")
+```
+=======
+# Focus Groups
+*Gitte Saunders*, *Marcus Specht*
+
+stub
+>>>>>>> d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/03-stakeholders/02-focus-groups.Rmd
+
+<!--chapter:end:chapters/03-stakeholders/02-focus-groups.Rmd-->
+
+# Surveys 
+*TBA*
+
+stub
+
+<!--chapter:end:chapters/03-stakeholders/03-surveys.Rmd-->
+
+# Group Concept Mapping
+*Christian Glahn*
+
+> **Abstract:** 
+> 
+> **Keywords:**
+
+stub
+
+<!--chapter:end:chapters/03-stakeholders/04-gcm.Rmd-->
+
+# Delphi Method
+*TBA*
+stub
+
+<!--chapter:end:chapters/03-stakeholders/05-Delphi-method.Rmd-->
+
+# (PART) Formative Methods {-}
+
+# Agile Development and SCRUM
+
+# Prototyping
+
+# ~~Focus Groups~~
+
+# Task performance studies
+
+
+
+
+
+<!--chapter:end:chapters/04-formative/00-index.Rmd-->
+
+# (PART) Summative Methods {-}
+
+# Experiments
+
+# Quasi Experiments
+
+# Field Studies
+
+# Experience Sampling
+
+<!--chapter:end:chapters/05-summative/00-index.Rmd-->
+
+
+# Example chapter
+
+Placeholder
+
+
+
+<!--chapter:end:chapters/06-chapter/00-index.Rmd-->
+
+
+# (PART\*) Exercises {-}
+# Example one
+
+Placeholder
+
+
+
+<!--chapter:end:chapters/07-exercise/00-index.Rmd-->
+
+# Authors {-}
+
+<!--chapter:end:chapters/98-authors/00-index.rmd-->
+
+## Hendrick Drachsler {-}
+
+<!--chapter:end:chapters/98-authors/drachsler_hendrick.Rmd-->
+
+## Christian Glahn  {-}
+
+<!--chapter:end:chapters/98-authors/glahn_christian.Rmd-->
+
+## Marco Kalz {-}
+
+<!--chapter:end:chapters/98-authors/kalz_marco.Rmd-->
+
+## Gillian Saunders {-}
+
+<!--chapter:end:chapters/98-authors/saunders_gillian.Rmd-->
+
+## Marcus Specht {-}
+
+<!--chapter:end:chapters/98-authors/specht_marcus.Rmd-->
+
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:chapters/99-references/00-index.Rmd-->
+
+
+<!--chapter:end:rm4le.Rmd-->
+
+---
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+## Why this book ? {#intro}
+
+There are plenty of good books on research methods for different disciplines, so why another one? This is related to several challenges I realised when developing a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplfied introduction to research methods on which particpants could build but also finish the course with a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive  overview. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.
+
+```{r eval=TRUE, echo=FALSE}
+library("DiagrammeR")
+DiagrammeR("
+  graph LR
+    A-->B
+    A-->C
+    C-->E
+    B-->D
+    C-->D
+    D-->F
+    E-->F
+")
+```
+
+## Research methods for whom?
+
+This book is for students of every age and background which enjoy learning about these topics. One scenario is bachelor and master students which have to do a research project in there studies. Some of the foundations chapters should give them a primer for the structure and decisions to make to come to a study design. On the other hand this is also for multi year research settings as in a PhD project or other projects.
+
+The focus of this book is on research methods that are used to understand human-computer systems mostly in the field of learning and teaching with technology. Of course the methods are helpful, useful and can be applied in other domains but this is the main focus.
+
+
+<!--chapter:end:chapters/00-intro/01-why.rmd-->
+
+---
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+
+# (PART) Making a plan {-}
+
+
+## A simplified research model and it's principles
+
+Some might reject this book due to the lack of a decision on one overarching methodology and approach, nevertheless we give pointers to different research & development approaches in the foundation chapter this book is not taking favour of one research approach. It tries to highlight the principles that are important when doing research on technologies, learning and teaching. These include understand the legacy, engaging with users, fast prototyping and agile development, product iterations and context adaptions, ...
+
+<!--chapter:end:chapters/00-planning/00-index.rmd-->
+
+# (PART) Foundations {-}
+
+Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
+
+
+## Scales and data levels
+
+## Variables and conceptual models
+
+differentiate theory, theoretical model, and framework
+
+
+
+
+<!--chapter:end:chapters/01-foundations/00-index.Rmd-->
+
+
+
+Research methods build the base for innovation in many areas. As one domain recently learning engineering looks at the challenge of continuous renewal and innovation in educational technologies and the evluation of these innovations.
+
+
+
+> **Abstract:** This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.
+>
+> **Keywords:**  TEL, technology, technological determinism, social determinism, middle-ground
+
+There has been an ongoing critique regarding the role of educational theory for research on educational technology (Ravenscroft, 2001). On the other hand, the role of technology itself has been seldom discussed in the field of technology-enhanced learning. This chapter discusses the different perspectives on the role of technology in technology-enhanced learning research. To position the field of technology-enhanced learning in relation to earlier research fields, it is useful to discuss related definitions. In an early definition of educational technology, the AECT Task Force on Definition and Terminology points out that educational technology should not be confused with the application of technology in education. According to the AECT (1977) the field of educational technology defines technology in a broad sense as the application of an “integrated process involving people, procedures, ideas, devices, and organization, for analyzing problems and devising, implementing, evaluating and managing solutions to those problems, in all aspects of human learning”. This definition goes beyond technology in the sense of technics and includes a variety of methods and approaches which do not involve technological artifacts.
+
+Later, Reiser (2001) proposes the term instructional design and technology to avoid confusing it with the term instructional media which he interprets as the application of “computers, videos, CD-Roms, overhead and slide-projectors and other types of hardware and software”. Both fields have explicitly given themselves a broader definition than the use of the development and integration of technological artifacts in an educational context. The domain of technology-enhanced learning is explicitly focusing on a narrower definition. We define technology-enhanced learning research as a systematic approach to design, apply and analyse effects of digital technology with respect to increasing effectiveness, efficiency, enjoyability/attractiveness, accessibility of learning. In this definition, the design or application of digital technology into an educational context is central to the field. TEL does not focus on all types of technologies but explicitly focuses on digital technology. This definition has important implications for the identity of the field as a whole since the design of digital artifacts requires expertise from computer science while the application and evaluation requires expertise from educational science and psychology. Based on this combination of competences and expertise, the field of technology-enhanced learning has been from the start regarded as an interdisciplinary discipline (Kalz & Specht, 2014). Nonetheless, the role of technology itself has not been sufficiently critically reflected in the field and there are implicit patterns of argumentation and assumptions about the role of technology which we would like to discuss in the next section.
+ 
+Different roles of technology
+
+One of the most prominent discussion in the field relates to a basic assumption about which discipline should lead in the development of interventions and solutions. The slogan “pedagogy first, technology second” is an often-repeated statement that many people from the educational field communicate based on the assumption that the only real innovation in teaching and learning should come from the pedagogy formulating requirements which the technical developers need to realize. On the other hand, there is a pervasive statement that a new technology is going to revolutionize education assuming that the introduction of a new technology will lead directly to better teaching or learning.
+What is common to both positions is the implicit deterministic stance that is used as a starting point. Chandler (1995) differentiates between two types of determinisms. On the one hand, there is a technological determinism, on the other hand there is a social determinism. Technological determinism is connected to a number of assumptions about the character and effects of technology.
+
+Often, reductionist and mechanistic models are used which are assuming a simple cause-and-effect relationship to explain phenomena. Instead of taking into account individual, environmental or contextual variables, effects of technology are generalized to such a high level that technology is regarded as the source of progress or innovation. As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”. 
+
+As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”. In times of pervasive computerization of our society and environments and the connection and dependency of technologies on each other it is nearly impossible to generalize effects from one technology to the other. In addition, authors like Berry (2014) point to the ongoing softwarization of our society leading to a “post-digital world in which the digital has become completely bound up with and constitutive of everyday life and the so-called digital economy”. This has led also to a higher level of personalization and adaptation options for end-users taking the discussion regarding the reification of technology on another level because even the same digital technology can work differently for two users. Example of this are prominent search engines which are showing different results for search terms depending on the user profile or mobile apps which follow the notification preferences of the user rather the pre-designed notification of an app developed for learning.  
+Another aspect of this discussion is the assumption that machines can be divided into single parts and they offer a regular behavior. This assumption cannot be transferred to the use of technology in a social context because “the use of complex and interacting technologies may have implications which are not always entirely intended or predicted. And the complex fabric of social reality cannot be neatly analyzed into component factors” (Chandler, 1995).
+
+The neutrality of technology also known as the instrumental view of technology usage can be also seen as a deterministic perspective. Based on this perspective, technology itself is regarded as a kind of transport medium that does not add any affordances or qualities to the learning process. A very famous example from the educational technology domain is the debate between Richard Clark and Robert Kozma (see Clark 1994, Kozma, 1995) about the influence of “media” on learning. Clark (1994) supports the perspective of technological neutrality and states that technology itself has no influence on learning. In opposition, Kozma (1995) answered to this statement and argued that media/technologies have in itself traits that can have effects on learning.
+
+Another dimension of the technological determinism standpoint is the assumption that technology is acting autonomously. Chandler (1995) frames this perspective as follows: “Rather than as a product of society and an integral part of it, technology is presented as an independent, self-controlling, self-determining, self-generating, self-propelling, self-perpetuating and self-expanding force”. A special flavor of this perspective is the so-called anthropomorphism which projects unique human traits (purposeful behavior) on technology. This position ignores the fact that technology is made by humans and that all functionalities embedded into technology are in the end also designed by man. In recent times, where machine learning and artificial intelligence is also applied in the context of technology-enhanced learning, the discussion on autonomy of technology is getting a completely new perspective. To take a recent example, artificial neural networks are applied to solve different kind of problems (learning rules of games, pattern and image recognition etc.), but their internal function is working like a black box that is outside of the capabilities of humans.
+
+An often-repeated stance also in an educational context is the paradigm of the unstoppable technological progress also called the technological imperative. This perspective assumes that technology will inevitably lead to changes in society, education etc. and that this progress is unstoppable. This perspective and assumption of change is in that sense problematic as societies can always consciously accept or reject technologies. Especially ethical dimensions of the application of specific technologies can produce a public discourse that ends up in a decision not to adopt a technological progress. Several examples of this come from the medical field like stem cell research or the use of new test approaches for disability screening of babies. In technology-enhanced learning this discourse between potential application and realized application of technology is especially visible in the field of learning analytics (Greller & Drachsler, 2014) in which the public discourse is inevitably connected to the discussion about data protection and conflicts between individual integrity and the potential benefit for learning.
+In the same line of thinking, Pannabecker (1991) has criticized that we regularly talk about the impact of technology. He poses that this metaphor “implies that technology is a discrete force with a discernible direction and influence”.
+ 
+The other extreme position that is also very famous especially in educational domains is to completely deny any effects of technology resulting into the other extreme deterministic perspective which we call here again following Chandler (1995) social determinism. Social determinism is assuming that social factors are shaping society and that technology itself is not having any natural affordances that also influence the societal development.
+
+Establishing a middle ground for technology-enhanced learning research
+After having introduced the different perspectives and deterministic stances the question arises if there is also a middle-ground position that is able to overcome the extreme positions.
+
+
+
+
+## Definitions and terminology {#definitions}
+
+Technology enhanced learning is about exploring the:
+Learning potential (goal) and usability (goal) of (design of/affordances of) digital technology x) for person (actor(s) a,b,c)  in context(s)  as studied by the educational system designer/researcher
+
+Defining Technology
+Defining Enhancement
+Defining Learning
+ 
+Technology enhanced learning research is a systematic approach to design and assess  digital technology with respect to increasing:
+Effectiveness
+Efficiency
+Enjoyability/Attractiveness
+Accessibility
+Usefulness enhancements (=usability and utility) (see also SAMR framework)
+
+
+Is it method, techniques or methodologies? See next part 
+See external glossary
+
+Understanding the difference between methods and methodology is of paramount importance. Method is simply a research tool, a component of research – say for example, a qualitative method such as interviews. Methodology is the justification for using a particular research method.
+
+## Frameworks, Theory and Models
+
+2.2 Framework—Theory–Model: Distinctions among these three analytical tools are
+especially important for analysts to remember.
+2.2.1 Framework identifies, categorizes, and organizes those factors deemed most
+relevant to understanding some phenomenon.
+2.2.2 Theory posits general causal relationships among some subsets of these
+variables or categories of factors, designating some types of factors as
+especially important and others as less critical for explanatory purposes.
+2.2.3 Model specifies the specific functional relationships among particular variables
+or indicators that are hypothesized to operate in some well-defined
+set of conditions.
+
+See: An Introduction to IAD and the Language of the Ostrom
+Workshop: A Simple Guide to a Complex Frameworkpsj_401 169..184
+Michael D. McGinnis
+
+
+## The Research Process {#process}
+
+## Choosing a strategy {#strategy}
+
+Abstract: The chapter will introduce the main dimensions of TEL research, which are theoretical assumptions and models, technology development and innovation methods, contextual embedding, daily practice and pedagogy, as also empirical evidence generated from formative and summative evaluations. Based on the main objectives of a research project different examples for TEL research are described and classified.  Objectives in TEL research range from targeting for the innovation of new technologies based on theoretical assumptions, implementing technology in daily practice, generating research evidence for enhancing theoretical underpinnings or embedding technology in practices to enhance learning. To ensure sound research quality and outcomes TEL researchers on the one hand need to prioritize objectives and on the other hand need to be aware of the relations between the different dimensions. The chapter introduces guiding questions for the four dimensions of TEL research projects and how these should be used to balance research and create high quality research outcomes. The examples given also illustrate different TEL research projects and how these have combined different methods in a process which links and considers all four dimensions. Strategic guidance for the TEL researcher is implemented with the TheTePrEv Framework which helps to identify blind spots and missing components for methodological choices in research projects.
+
+
+
+## Interdisciplinary work
+
+In general TEL is an interdisciplinary field bringing together different research backgrounds as also different research objectives. While engineering sciences mostly have the objective to create and design artefacts, the social and behavioural sciences more target humans interaction with these artefacts and the effects therefrom. In that sense TEL projects bring together these objectives on a high level, in a first step you therefore have to answer different questions:
+What kind of technology do you want to use? What are the main characteristics of the technology you want to use and how do you specify the main activity that users do with your software or artefact?
+
+What are the enhancements you expect from the use of such technology and what are your expected outcomes? How do you plan to measure these outcomes?
+
+What is the main learning you would like to see in the educational context? How you you describe learning in that context? What problems and barriers are there in the current educational implementation and setting? Are the problems in the environmental settings or are there problems of users for learning from the available support?
+
+
+<!--chapter:end:chapters/01-foundations/01-technology-in-tel.rmd-->
+
+# (PART) Understanding the legacy {-}
+
+Here is a review of existing methods.
+
+## Literature Review
+
+## Meta-Analysis
+
+
+
+
+
+<!--chapter:end:chapters/02-theLegacy/00-index.Rmd-->
+
+# (PART) Engaging with users {-}
+
+# Context Analysis
+
+# Requirements Engineering
+
+# Participatory Design
+
+
+
+
+<!--chapter:end:chapters/03-theNeed/00-index.Rmd-->
+
+---
+author: TBA, Marcus Specht
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+<<<<<<< HEAD:chapters/00-overview/01-subsection.rmd
+## Different Strategies in research
+
+
+```{r eval=TRUE, echo=FALSE}
+library("DiagrammeR")
+DiagrammeR("
+  graph LR
+    A(from theory)-->D
+    B(from technology)-->D
+    C(from practice)-->D
+    D(the research question)-->E(where to start)
+    E-->F(what data to be collected)
+")
+```
+=======
+# Focus Groups
+*Gitte Saunders*, *Marcus Specht*
+
+stub
+>>>>>>> d5c7888c502a2e5e65c7bba123c7039f5e379633:chapters/03-stakeholders/02-focus-groups.Rmd
+
+<!--chapter:end:chapters/03-theNeed/02-focus-groups.Rmd-->
+
+# Surveys 
+*TBA*
+
+stub
+
+<!--chapter:end:chapters/03-theNeed/03-surveys.Rmd-->
+
+# Group Concept Mapping
+*Christian Glahn*
+
+> **Abstract:** 
+> 
+> **Keywords:**
+
+stub
+
+<!--chapter:end:chapters/03-theNeed/04-gcm.Rmd-->
+
+# Delphi Method
+*TBA*
+stub
+
+<!--chapter:end:chapters/03-theNeed/05-Delphi-method.Rmd-->
+
+# (PART) Formative Methods {-}
+
+# Agile Development and SCRUM
+
+# Prototyping
+
+# ~~Focus Groups~~
+
+# Task performance studies
+
+
+
+
+
+<!--chapter:end:chapters/04-designdevelop/00-index.Rmd-->
+
+# (PART) Summative Methods {-}
+
+# Experiments
+
+# Quasi Experiments
+
+# Field Studies
+
+# Experience Sampling
+
+<!--chapter:end:chapters/05-theEffects/00-index.Rmd-->
+
+# Example chapter
+
+This text is an Example for our Head editor. 
+
+On the role of technology in technology-enhanced learning research
+Marco Kalz
+
+
+
+
+Abstract
+This chapter reflects on the different perspectives of technology on technology-enhanced learning research. The TEL domain and its use of technology is discussed in a historical context against the educational technology domain. Different perspectives and resulting challenges are discussed.
+
+Keywords:  TEL, technology, technological determinism, social determinism, middle-ground
+
+
+
+Introduction
+There has been an ongoing critique regarding the role of educational theory for research on educational technology (Ravenscroft, 2001). On the other hand, the role of technology itself has been seldom discussed in the field of technology-enhanced learning. This chapter discusses the different perspectives on the role of technology in technology-enhanced learning research. To position the field of technology-enhanced learning in relation to earlier research fields, it is useful to discuss related definitions. In an early definition of educational technology, the AECT Task Force on Definition and Terminology points out that educational technology should not be confused with the application of technology in education. According to the AECT (1977) the field of educational technology defines technology in a broad sense as the application of an “integrated process involving people, procedures, ideas, devices, and organization, for analyzing problems and devising, implementing, evaluating and managing solutions to those problems, in all aspects of human learning”. This definition goes beyond technology in the sense of technics and includes a variety of methods and approaches which do not involve technological artifacts.
+
+Later, Reiser (2001) proposes the term instructional design and technology to avoid confusing it with the term instructional media which he interprets as the application of “computers, videos, CD-Roms, overhead and slide-projectors and other types of hardware and software”. Both fields have explicitly given themselves a broader definition than the use of the development and integration of technological artifacts in an educational context. The domain of technology-enhanced learning is explicitly focusing on a narrower definition. We define technology-enhanced learning research as a systematic approach to design, apply and analyse effects of digital technology with respect to increasing effectiveness, efficiency, enjoyability/attractiveness, accessibility of learning. In this definition, the design or application of digital technology into an educational context is central to the field. TEL does not focus on all types of technologies but explicitly focuses on digital technology. This definition has important implications for the identity of the field as a whole since the design of digital artifacts requires expertise from computer science while the application and evaluation requires expertise from educational science and psychology. Based on this combination of competences and expertise, the field of technology-enhanced learning has been from the start regarded as an interdisciplinary discipline (Kalz & Specht, 2014). Nonetheless, the role of technology itself has not been sufficiently critically reflected in the field and there are implicit patterns of argumentation and assumptions about the role of technology which we would like to discuss in the next section.
+ 
+Different roles of technology
+One of the most prominent discussion in the field relates to a basic assumption about which discipline should lead in the development of interventions and solutions. The slogan “pedagogy first, technology second” is an often-repeated statement that many people from the educational field communicate based on the assumption that the only real innovation in teaching and learning should come from the pedagogy formulating requirements which the technical developers need to realize. On the other hand, there is a pervasive statement that a new technology is going to revolutionize education assuming that the introduction of a new technology will lead directly to better teaching or learning.
+What is common to both positions is the implicit deterministic stance that is used as a starting point. Chandler (1995) differentiates between two types of determinisms. On the one hand, there is a technological determinism, on the other hand there is a social determinism. Technological determinism is connected to a number of assumptions about the character and effects of technology.
+
+Often, reductionist and mechanistic models are used which are assuming a simple cause-and-effect relationship to explain phenomena. Instead of taking into account individual, environmental or contextual variables, effects of technology are generalized to such a high level that technology is regarded as the source of progress or innovation. As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”. 
+
+As second assumptions connected to technological determinism is the aspect of reification. According to Chandler (1995) reification means to treat technology as if it was “a single material thing with a homogeneous, undifferentiated character”. In times of pervasive computerization of our society and environments and the connection and dependency of technologies on each other it is nearly impossible to generalize effects from one technology to the other. In addition, authors like Berry (2014) point to the ongoing softwarization of our society leading to a “post-digital world in which the digital has become completely bound up with and constitutive of everyday life and the so-called digital economy”. This has led also to a higher level of personalization and adaptation options for end-users taking the discussion regarding the reification of technology on another level because even the same digital technology can work differently for two users. Example of this are prominent search engines which are showing different results for search terms depending on the user profile or mobile apps which follow the notification preferences of the user rather the pre-designed notification of an app developed for learning.  
+Another aspect of this discussion is the assumption that machines can be divided into single parts and they offer a regular behavior. This assumption cannot be transferred to the use of technology in a social context because “the use of complex and interacting technologies may have implications which are not always entirely intended or predicted. And the complex fabric of social reality cannot be neatly analyzed into component factors” (Chandler, 1995).
+
+The neutrality of technology also known as the instrumental view of technology usage can be also seen as a deterministic perspective. Based on this perspective, technology itself is regarded as a kind of transport medium that does not add any affordances or qualities to the learning process. A very famous example from the educational technology domain is the debate between Richard Clark and Robert Kozma (see Clark 1994, Kozma, 1995) about the influence of “media” on learning. Clark (1994) supports the perspective of technological neutrality and states that technology itself has no influence on learning. In opposition, Kozma (1995) answered to this statement and argued that media/technologies have in itself traits that can have effects on learning.
+
+Another dimension of the technological determinism standpoint is the assumption that technology is acting autonomously. Chandler (1995) frames this perspective as follows: “Rather than as a product of society and an integral part of it, technology is presented as an independent, self-controlling, self-determining, self-generating, self-propelling, self-perpetuating and self-expanding force”. A special flavor of this perspective is the so-called anthropomorphism which projects unique human traits (purposeful behavior) on technology. This position ignores the fact that technology is made by humans and that all functionalities embedded into technology are in the end also designed by man. In recent times, where machine learning and artificial intelligence is also applied in the context of technology-enhanced learning, the discussion on autonomy of technology is getting a completely new perspective. To take a recent example, artificial neural networks are applied to solve different kind of problems (learning rules of games, pattern and image recognition etc.), but their internal function is working like a black box that is outside of the capabilities of humans.
+
+An often-repeated stance also in an educational context is the paradigm of the unstoppable technological progress also called the technological imperative. This perspective assumes that technology will inevitably lead to changes in society, education etc. and that this progress is unstoppable. This perspective and assumption of change is in that sense problematic as societies can always consciously accept or reject technologies. Especially ethical dimensions of the application of specific technologies can produce a public discourse that ends up in a decision not to adopt a technological progress. Several examples of this come from the medical field like stem cell research or the use of new test approaches for disability screening of babies. In technology-enhanced learning this discourse between potential application and realized application of technology is especially visible in the field of learning analytics (Greller & Drachsler, 2014) in which the public discourse is inevitably connected to the discussion about data protection and conflicts between individual integrity and the potential benefit for learning.
+In the same line of thinking, Pannabecker (1991) has criticized that we regularly talk about the impact of technology. He poses that this metaphor “implies that technology is a discrete force with a discernible direction and influence”.
+ 
+The other extreme position that is also very famous especially in educational domains is to completely deny any effects of technology resulting into the other extreme deterministic perspective which we call here again following Chandler (1995) social determinism. Social determinism is assuming that social factors are shaping society and that technology itself is not having any natural affordances that also influence the societal development.
+
+Establishing a middle ground for technology-enhanced learning research
+After having introduced the different perspectives and deterministic stances the question arises if there is also a middle-ground position that is able to overcome the extreme positions.
+
+<!--chapter:end:chapters/06-theLoop/00-index.Rmd-->
+
+# (PART\*) Exercises {-}
+
+Here you can see an Shiny-exercise embedded.
+
+# Example one
+
+# Example two
+
+```{r}
+knitr::include_app("https://mkalz.shinyapps.io/Data2TEachModulCVariablenzuordnung/",
+  height = "800px")
+```
+
+you can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+
+Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+
+```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+This is also a reference to [@kobsa2001personalised] this is important.
+
+```{r}
+# Loop to print numbers from 1 to 10
+for (i in 1:10) {
+  print(i)
+}
+```
+
+
+Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
+
+```{r nice-tab, tidy=FALSE}
+knitr::kable(
+  head(iris, 20), caption = 'Here is a nice table!',
+  booktabs = TRUE
+)
+```
+
+You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+
+
+
+
+<!--chapter:end:chapters/07-exercise/00-index.Rmd-->
+
+# Authors {-}
+
+<!--chapter:end:chapters/98-authors/00-index.rmd-->
+
+## Hendrick Drachsler {-}
+
+<!--chapter:end:chapters/98-authors/drachsler_hendrick.Rmd-->
+
+## Christian Glahn  {-}
+
+<!--chapter:end:chapters/98-authors/glahn_christian.Rmd-->
+
+## Marco Kalz {-}
+
+<!--chapter:end:chapters/98-authors/kalz_marco.Rmd-->
+
+## Gillian Saunders {-}
+
+<!--chapter:end:chapters/98-authors/saunders_gillian.Rmd-->
+
+## Marcus Specht {-}
+
+<!--chapter:end:chapters/98-authors/specht_marcus.Rmd-->
+
+`r if (knitr:::is_html_output()) '
+# References {-}
+'`
+
+<!--chapter:end:chapters/99-references/00-index.Rmd-->
+
