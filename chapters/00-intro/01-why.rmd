@@ -14,6 +14,7 @@ There are plenty of good books on research methods for different disciplines, so
 One starting point was the development of a MOOC on multi-disciplinary research methods for engineers in 2020. With this MOOC we tried to give a simplified introduction to research methods on which participants could build. The MOOC targeted to give participants a good understanding of where to start and what are the decisions you have to make in a research project on human-computer systems in general. Nevertheless when looking for reference materials on which learners could build we did not find open content chapters to give a simple but comprehensive overview on many methods and research instruments. The aim of this book is to fill this gap and become and online repository with simple introductions to important decisions in a research project and primers for research methods in the different phases of the research project.
 
 A second issue was the long ongoing discussion of the TEL community on how to develop a flexible approach and strategy for doing Technology Enhanced Learning Research coming from different starting points and disciplinary backgrounds.
+A second issue was the long ongoing discussion of the TEL community on how to develop a flexible approach and strategy for doing Technology Enhanced Learning Research coming from different starting points and disciplinary backgrounds [kalz_assessing_2014].
 
 ```{r eval=TRUE, echo=FALSE}
 library("DiagrammeR")
