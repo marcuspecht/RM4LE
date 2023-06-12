@@ -10,6 +10,8 @@ bookdown::gitbook:
     download: 
       - pdf
       - epub
+    # split_by: rmd
+    split_bib: yes
 bookdown::pdf_book:
   includes:
     in_header: _contrib/preamble.tex
